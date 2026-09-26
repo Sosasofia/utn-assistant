@@ -1,0 +1,6 @@
+@UtnAssistant.API_HostAddress = https://localhost:7083
+
+GET {{UtnAssistant.API_HostAddress}}/api/hello
+Accept: application/json
+
+###
