@@ -23,7 +23,7 @@ export const getStatusColor = (
     return 'bg-yellow-100 text-yellow-800 border-yellow-200 shadow-sm';
   if (canTake)
     return 'bg-white text-gray-900 border-gray-200 hover:border-indigo-400 hover:shadow-md cursor-pointer';
-  return 'bg-gray-50 text-gray-400 border-gray-100 opacity-60 cursor-not-allowed';
+  return 'bg-white text-gray-900 border-gray-200';
 };
 
 export const getStatusBadge = (
@@ -32,7 +32,7 @@ export const getStatusBadge = (
 ) => {
   if (status === 'APPROVED') return '✓✓ Aprobada';
   if (status === 'ATTENDED') return '✓ Cursada';
-  if (!canTake && !status) return '🔒 Locked';
+  if (!canTake && !status) return '🔒 Bloqueada';
   return 'Click para actualizar';
 };
 

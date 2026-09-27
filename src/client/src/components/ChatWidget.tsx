@@ -164,10 +164,11 @@ export function ChatWidget() {
             {messages.map((msg) => (
               <div
                 key={msg.id}
-                className={`p-2.5 rounded-lg text-sm max-w-[85%] shadow-sm ${msg.role === 'user'
-                  ? 'bg-blue-600 text-white self-end rounded-br-none'
-                  : 'bg-white border border-gray-200 text-gray-800 self-start rounded-bl-none'
-                  }`}
+                className={`p-2.5 rounded-lg text-sm max-w-[85%] shadow-sm ${
+                  msg.role === 'user'
+                    ? 'bg-blue-600 text-white self-end rounded-br-none'
+                    : 'bg-white border border-gray-200 text-gray-800 self-start rounded-bl-none'
+                }`}
               >
                 {msg.role === 'user'
                   ? msg.content

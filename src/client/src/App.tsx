@@ -9,6 +9,7 @@ import type { Subject, ProgressStatus } from './types';
 export default function App() {
   const { subjects, progress, isLoading, error, toggleStatus } = useDashboard();
   const [showCorrelatives, setShowCorrelatives] = useState(false);
+  const [collapseVersion, setCollapseVersion] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalYear, setModalYear] = useState(0);
 
@@ -97,15 +98,27 @@ export default function App() {
             <h1 className="text-2xl font-bold text-slate-800">
               🎓 UTN Asistente
             </h1>
-            <label className="flex items-center gap-2 text-sm text-slate-600 cursor-pointer bg-slate-100 px-3 py-1.5 rounded-md hover:bg-slate-200">
-              <input
-                type="checkbox"
-                checked={showCorrelatives}
-                onChange={(e) => setShowCorrelatives(e.target.checked)}
-                className="w-4 h-4 rounded text-indigo-600"
-              />
-              Mostrar correlativas
-            </label>
+            <div className="flex items-center gap-2">
+              <label className="flex items-center gap-2 text-sm text-slate-600 cursor-pointer bg-slate-100 px-3 py-1.5 rounded-md hover:bg-slate-200">
+                <input
+                  type="checkbox"
+                  checked={showCorrelatives}
+                  onChange={(e) => setShowCorrelatives(e.target.checked)}
+                  className="w-4 h-4 rounded text-indigo-600"
+                />
+                Mostrar todas las correlativas
+              </label>
+              <button
+                type="button"
+                onClick={() => {
+                  setShowCorrelatives(false);
+                  setCollapseVersion((version) => version + 1);
+                }}
+                className="px-3 py-1.5 text-sm text-slate-600 bg-slate-100 rounded-md hover:bg-slate-200"
+              >
+                Colapsar todo
+              </button>
+            </div>
           </div>
         </header>
 
@@ -135,6 +148,7 @@ export default function App() {
                       status={progress.get(subject.id)}
                       progressMap={progress}
                       showCorrelatives={showCorrelatives}
+                      collapseVersion={collapseVersion}
                       onClick={handleCardClick}
                     />
                   ))}
