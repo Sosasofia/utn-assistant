@@ -46,7 +46,7 @@ export function SubjectCard({
       <div className="flex flex-wrap gap-1 mb-3">
         {subject.isIntegrator && (
           <span className="text-[10px] bg-purple-100 text-purple-700 px-1.5 rounded">
-            Integrator
+            Integradora
           </span>
         )}
         {subject.isElective && (

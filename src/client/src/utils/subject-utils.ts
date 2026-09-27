@@ -30,10 +30,10 @@ export const getStatusBadge = (
   status: string | undefined,
   canTake: boolean | undefined
 ) => {
-  if (status === 'APPROVED') return '✓✓ Approved';
-  if (status === 'ATTENDED') return '✓ Attended';
+  if (status === 'APPROVED') return '✓✓ Aprobada';
+  if (status === 'ATTENDED') return '✓ Cursada';
   if (!canTake && !status) return '🔒 Locked';
-  return 'Click to update';
+  return 'Click para actualizar';
 };
 
 export const sortSubjects = (subjects: Subject[]) => {

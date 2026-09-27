@@ -95,7 +95,7 @@ export default function App() {
         <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <h1 className="text-2xl font-bold text-slate-800">
-              🎓 UTN Planner
+              🎓 UTN Asistente
             </h1>
             <label className="flex items-center gap-2 text-sm text-slate-600 cursor-pointer bg-slate-100 px-3 py-1.5 rounded-md hover:bg-slate-200">
               <input
@@ -104,7 +104,7 @@ export default function App() {
                 onChange={(e) => setShowCorrelatives(e.target.checked)}
                 className="w-4 h-4 rounded text-indigo-600"
               />
-              Show Prerequisites
+              Mostrar correlativas
             </label>
           </div>
         </header>
@@ -124,7 +124,7 @@ export default function App() {
                   <div className="w-8 h-8 bg-slate-800 rounded-full flex items-center justify-center text-white font-bold text-sm">
                     {year}
                   </div>
-                  <h2 className="font-bold text-slate-700">Year {year}</h2>
+                  <h2 className="font-bold text-slate-700"> Nivel {year}</h2>
                 </div>
 
                 <div className="flex flex-col gap-3">
