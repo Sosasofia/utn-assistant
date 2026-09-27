@@ -1,17 +1,61 @@
 import type { Subject } from '../types';
 
+export type ChatResponse = {
+  answer: string;
+};
+
+const getUserId = (): string => {
+  const userId = localStorage.getItem('userId');
+  if (!userId) {
+    throw new Error('User ID not found in local storage');
+  }
+  return userId;
+};
+
+const getChatHistory = (): Array<{ role: string; content: string }> => {
+  const userId = getUserId();
+  return JSON.parse(localStorage.getItem(`chatHistory_${userId}`) || '[]');
+};
+
+const appendToChatHistory = (content: string, role: 'user' | 'assistant') => {
+  const userId = getUserId();
+  const history = getChatHistory();
+  history.push({ content, role });
+  localStorage.setItem(`chatHistory_${userId}`, JSON.stringify(history));
+};
+
 export const api = {
-  sendMessageToChatAPI: async (userText: string) => {
+  sendMessageToChatAPI: async (
+    userText: string,
+    signal?: AbortSignal
+  ): Promise<ChatResponse> => {
+    const userId = getUserId();
+
+    const currentHistory = getChatHistory();
+    appendToChatHistory(userText, 'user');
+
     const res = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ message: userText }),
+      body: JSON.stringify({
+        message: userText,
+        userId,
+        history: currentHistory,
+      }),
+      signal,
     });
 
     if (!res.ok) {
       throw new Error(`Chat API error! status: ${res.status}`);
     }
-    return res.json();
+
+    const data = (await res.json()) as ChatResponse;
+
+    if (data.answer) {
+      appendToChatHistory(data.answer, 'assistant');
+    }
+
+    return data;
   },
 
   fetchElectiveOptions: async (): Promise<Subject[]> => {

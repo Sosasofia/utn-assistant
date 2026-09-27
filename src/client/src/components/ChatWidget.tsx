@@ -1,7 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { api } from '../services/api';
 
 type Message = {
+  id: string;
   role: 'user' | 'assistant';
   content: string;
 };
@@ -49,55 +50,93 @@ const renderFormattedText = (text: string) => {
   });
 };
 
-export const ChatWidget: React.FC = () => {
+const createMessage = (role: Message['role'], content: string): Message => ({
+  id: crypto.randomUUID(),
+  role,
+  content,
+});
+
+export function ChatWidget() {
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
   const [messages, setMessages] = useState<Message[]>([]);
   const [isLoading, setIsLoading] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const requestControllerRef = useRef<AbortController | null>(null);
+  const isMountedRef = useRef(true);
+
+  useEffect(() => {
+    isMountedRef.current = true;
+
+    return () => {
+      isMountedRef.current = false;
+      requestControllerRef.current?.abort();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isOpen) inputRef.current?.focus();
+  }, [isOpen]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages, isLoading]);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!query.trim()) return;
 
     const userText = query.trim();
+    const controller = new AbortController();
+    requestControllerRef.current = controller;
     setQuery('');
-    setMessages((prev) => [...prev, { role: 'user', content: userText }]);
+    setMessages((prev) => [...prev, createMessage('user', userText)]);
     setIsLoading(true);
 
     try {
-      const res = await api.sendMessageToChatAPI(userText);
+      const res = await api.sendMessageToChatAPI(userText, controller.signal);
+
+      if (!isMountedRef.current) return;
+
+      setMessages((prev) => [...prev, createMessage('assistant', res.answer)]);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') return;
+
+      console.error('Chat error:', error);
+      if (!isMountedRef.current) return;
 
       setMessages((prev) => [
         ...prev,
-        { role: 'assistant', content: res.answer },
-      ]);
-    } catch (error) {
-      console.error('Chat error:', error);
-      setMessages((prev) => [
-        ...prev,
-        {
-          role: 'assistant',
-          content: 'Error conectando con el asistente académico.',
-        },
+        createMessage(
+          'assistant',
+          'Error conectando con el asistente académico.'
+        ),
       ]);
     } finally {
-      setIsLoading(false);
+      if (isMountedRef.current) {
+        setIsLoading(false);
+        requestControllerRef.current = null;
+      }
     }
   };
 
   return (
     <div className="fixed bottom-6 right-6 z-50 font-sans">
       {isOpen ? (
-        <div className="w-80 h-96 bg-white border border-gray-300 rounded-lg shadow-2xl flex flex-col overflow-hidden">
+        <div
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="chat-title"
+          className="w-80 h-96 bg-white border border-gray-300 rounded-lg shadow-2xl flex flex-col overflow-hidden"
+        >
           <div className="bg-blue-600 text-white p-3 flex justify-between items-center shadow-sm">
-            <h3 className="font-semibold text-sm">Asistente UTN</h3>
+            <h2 id="chat-title" className="font-semibold text-sm">
+              Asistente UTN
+            </h2>
             <button
+              type="button"
               onClick={() => setIsOpen(false)}
               className="text-white hover:text-gray-200 text-xl leading-none px-1"
               aria-label="Cerrar chat"
@@ -106,7 +145,12 @@ export const ChatWidget: React.FC = () => {
             </button>
           </div>
 
-          <div className="flex-1 p-3 overflow-y-auto bg-gray-50 flex flex-col gap-3">
+          <div
+            role="log"
+            aria-live="polite"
+            aria-busy={isLoading}
+            className="flex-1 p-3 overflow-y-auto bg-gray-50 flex flex-col gap-3"
+          >
             {messages.length === 0 && (
               <div className="text-gray-500 text-xs text-center mt-4 flex flex-col gap-2">
                 <p>
@@ -117,14 +161,13 @@ export const ChatWidget: React.FC = () => {
               </div>
             )}
 
-            {messages.map((msg, idx) => (
+            {messages.map((msg) => (
               <div
-                key={idx}
-                className={`p-2.5 rounded-lg text-sm max-w-[85%] shadow-sm ${
-                  msg.role === 'user'
-                    ? 'bg-blue-600 text-white self-end rounded-br-none'
-                    : 'bg-white border border-gray-200 text-gray-800 self-start rounded-bl-none'
-                }`}
+                key={msg.id}
+                className={`p-2.5 rounded-lg text-sm max-w-[85%] shadow-sm ${msg.role === 'user'
+                  ? 'bg-blue-600 text-white self-end rounded-br-none'
+                  : 'bg-white border border-gray-200 text-gray-800 self-start rounded-bl-none'
+                  }`}
               >
                 {msg.role === 'user'
                   ? msg.content
@@ -145,6 +188,7 @@ export const ChatWidget: React.FC = () => {
             className="p-3 border-t border-gray-200 bg-white flex gap-2"
           >
             <input
+              ref={inputRef}
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
@@ -163,9 +207,11 @@ export const ChatWidget: React.FC = () => {
         </div>
       ) : (
         <button
+          type="button"
           onClick={() => setIsOpen(true)}
           className="bg-blue-600 hover:bg-blue-700 text-white rounded-full h-14 w-14 shadow-xl flex items-center justify-center transition-transform hover:scale-105"
           aria-label="Abrir asistente"
+          aria-expanded={isOpen}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -185,4 +231,4 @@ export const ChatWidget: React.FC = () => {
       )}
     </div>
   );
-};
+}

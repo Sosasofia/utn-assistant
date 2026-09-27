@@ -3,22 +3,30 @@ using UtnAssistant.API.Services;
 
 namespace UtnAssistant.API.Endpoints;
 
+public record ChatMessageDto(string Role, string Content);
+public record ChatRequest(string UserId, string Message, List<ChatMessageDto>? History);
+
 public static class ChatEndpoints
 {
-    public record AskAssistantRequest(string Message);
 
     public static RouteGroupBuilder MapChatEndpoints(this IEndpointRouteBuilder routes)
     {
         var group = routes.MapGroup("/api/chat");
 
-        group.MapPost("/", async ([FromBody] AskAssistantRequest body, AcademicChatService chatService) =>
+        group.MapPost("/", async (
+            [FromBody] ChatRequest req, 
+            AcademicChatService chatService) =>
         {
-            if (string.IsNullOrWhiteSpace(body.Message))
+            if (string.IsNullOrWhiteSpace(req.Message) || string.IsNullOrWhiteSpace(req.UserId))
             {
-                return Results.BadRequest(new { error = "Message cannot be empty." });
+                return Results.BadRequest(new { error = "UserId and Message are required." });
             }
 
-            var answer = await chatService.AskQuestionAsync(body.Message);
+            var answer = await chatService.AskQuestionAsync(
+                req.Message, 
+                req.UserId,
+                req.History);
+
             return Results.Ok(new { answer });
         });
 
