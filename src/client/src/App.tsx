@@ -18,7 +18,7 @@ export default function App() {
         setModalYear(subject.year);
         setIsModalOpen(true);
       } else {
-        toggleStatus(subject);
+        toggleStatus(subject.id);
       }
     },
     [toggleStatus]

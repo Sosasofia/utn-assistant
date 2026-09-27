@@ -3,6 +3,18 @@ import { getUserId } from '../utils/subject-utils';
 import { api } from '../services/api';
 import type { Subject, ProgressStatus } from '../types';
 
+function createProgressMap(subjects: Subject[]) {
+  const progress = new Map<string, ProgressStatus>();
+
+  subjects.forEach((subject) => {
+    if (subject.status && subject.status !== 'NOT_ENROLLED') {
+      progress.set(subject.id, subject.status as ProgressStatus);
+    }
+  });
+
+  return progress;
+}
+
 export function useDashboard() {
   const [subjects, setSubjects] = useState<Subject[]>([]);
   const [progress, setProgress] = useState<Map<string, ProgressStatus>>(
@@ -16,14 +28,7 @@ export function useDashboard() {
     try {
       const data = await api.getDashboard(userId);
       setSubjects(data);
-
-      const newMap = new Map<string, ProgressStatus>();
-      data.forEach((s) => {
-        if (s.status && s.status !== 'NOT_ENROLLED') {
-          newMap.set(s.id, s.status as ProgressStatus);
-        }
-      });
-      setProgress(newMap);
+      setProgress(createProgressMap(data));
       setError(null);
     } catch (err) {
       setError('Could not connect to Academic Engine');
@@ -38,16 +43,14 @@ export function useDashboard() {
   }, [fetchDashboard]);
 
   const toggleStatus = useCallback(
-    async (subjectOrId: Subject | string, overrideStatus?: ProgressStatus) => {
+    async (subjectId: string, overrideStatus?: ProgressStatus) => {
       const userId = getUserId();
-      const targetId =
-        typeof subjectOrId === 'string' ? subjectOrId : subjectOrId.id;
 
-      let next: string;
+      let next: ProgressStatus;
       if (overrideStatus) {
         next = overrideStatus;
       } else {
-        const current = progress.get(targetId) || 'NOT_ENROLLED';
+        const current = progress.get(subjectId) || 'NOT_ENROLLED';
         next = 'ATTENDED';
         if (current === 'ATTENDED') next = 'APPROVED';
         if (current === 'APPROVED') next = 'NOT_ENROLLED';
@@ -56,24 +59,26 @@ export function useDashboard() {
       const previousMap = progress;
       const newMap = new Map(progress);
       if (next === 'NOT_ENROLLED') {
-        newMap.delete(targetId);
+        newMap.delete(subjectId);
       } else {
-        newMap.set(targetId, next as ProgressStatus);
+        newMap.set(subjectId, next);
       }
       setProgress(newMap);
 
       try {
-        await api.updateProgress(userId, targetId, next);
+        await api.updateProgress(userId, subjectId, next);
 
         const data = await api.getDashboard(userId);
         setSubjects(data);
+        setProgress(createProgressMap(data));
+        setError(null);
       } catch (e) {
         console.error(e);
         setProgress(previousMap);
-        await fetchDashboard();
+        setError('Could not update academic progress');
       }
     },
-    [fetchDashboard, progress]
+    [progress]
   );
 
   return { subjects, progress, isLoading, error, toggleStatus };
