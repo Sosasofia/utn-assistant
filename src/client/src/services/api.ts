@@ -25,10 +25,7 @@ const appendToChatHistory = (content: string, role: 'user' | 'assistant') => {
 };
 
 export const api = {
-  sendMessageToChatAPI: async (
-    userText: string,
-    signal?: AbortSignal
-  ): Promise<ChatResponse> => {
+  sendMessageToChatAPI: async (userText: string): Promise<ChatResponse> => {
     const userId = getUserId();
 
     const currentHistory = getChatHistory();
@@ -42,7 +39,6 @@ export const api = {
         userId,
         history: currentHistory,
       }),
-      signal,
     });
 
     if (!res.ok) {

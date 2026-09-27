@@ -36,14 +36,14 @@ const renderFormattedText = (text: string) => {
     if (isBullet) {
       return (
         <div key={lineIndex} className="flex items-start ml-2 my-0.5">
-          <span className="mr-1.5">•</span>
-          <span>{parsedParts}</span>
+          <span className="mr-1.5 text-slate-400">•</span>
+          <span className="text-slate-700">{parsedParts}</span>
         </div>
       );
     }
 
     return (
-      <div key={lineIndex} className="min-h-4 mb-1 last:mb-0">
+      <div key={lineIndex} className="min-h-4 mb-1 last:mb-0 text-slate-700">
         {parsedParts}
       </div>
     );
@@ -63,22 +63,6 @@ export function ChatWidget() {
   const [isLoading, setIsLoading] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const requestControllerRef = useRef<AbortController | null>(null);
-  const isMountedRef = useRef(true);
-
-  useEffect(() => {
-    isMountedRef.current = true;
-
-    return () => {
-      isMountedRef.current = false;
-      requestControllerRef.current?.abort();
-    };
-  }, []);
-
-  useEffect(() => {
-    if (isOpen) inputRef.current?.focus();
-  }, [isOpen]);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -89,23 +73,15 @@ export function ChatWidget() {
     if (!query.trim()) return;
 
     const userText = query.trim();
-    const controller = new AbortController();
-    requestControllerRef.current = controller;
     setQuery('');
     setMessages((prev) => [...prev, createMessage('user', userText)]);
     setIsLoading(true);
 
     try {
-      const res = await api.sendMessageToChatAPI(userText, controller.signal);
-
-      if (!isMountedRef.current) return;
-
+      const res = await api.sendMessageToChatAPI(userText);
       setMessages((prev) => [...prev, createMessage('assistant', res.answer)]);
     } catch (error) {
-      if (error instanceof DOMException && error.name === 'AbortError') return;
-
       console.error('Chat error:', error);
-      if (!isMountedRef.current) return;
 
       setMessages((prev) => [
         ...prev,
@@ -115,10 +91,7 @@ export function ChatWidget() {
         ),
       ]);
     } finally {
-      if (isMountedRef.current) {
-        setIsLoading(false);
-        requestControllerRef.current = null;
-      }
+      setIsLoading(false);
     }
   };
 
@@ -129,16 +102,16 @@ export function ChatWidget() {
           role="dialog"
           aria-modal="true"
           aria-labelledby="chat-title"
-          className="w-80 h-96 bg-white border border-gray-300 rounded-lg shadow-2xl flex flex-col overflow-hidden"
+          className="w-85 h-112.5 bg-white border border-slate-200 rounded-xl shadow-2xl flex flex-col overflow-hidden"
         >
-          <div className="bg-blue-600 text-white p-3 flex justify-between items-center shadow-sm">
-            <h2 id="chat-title" className="font-semibold text-sm">
+          <div className="bg-blue-600 text-white p-3.5 flex justify-between items-center shadow-sm">
+            <h2 id="chat-title" className="font-semibold text-sm tracking-wide">
               Asistente UTN
             </h2>
             <button
               type="button"
               onClick={() => setIsOpen(false)}
-              className="text-white hover:text-gray-200 text-xl leading-none px-1"
+              className="text-white hover:text-blue-100 text-xl font-bold leading-none px-1 pb-1 transition-colors cursor-pointer"
               aria-label="Cerrar chat"
             >
               ×
@@ -149,10 +122,10 @@ export function ChatWidget() {
             role="log"
             aria-live="polite"
             aria-busy={isLoading}
-            className="flex-1 p-3 overflow-y-auto bg-gray-50 flex flex-col gap-3"
+            className="flex-1 p-4 overflow-y-auto bg-slate-50 flex flex-col gap-3"
           >
             {messages.length === 0 && (
-              <div className="text-gray-500 text-xs text-center mt-4 flex flex-col gap-2">
+              <div className="text-slate-500 text-sm text-center mt-6 flex flex-col gap-3 px-2">
                 <p>
                   ¡Hola! Soy tu asistente académico basado en el plan de
                   estudios 2023.
@@ -164,11 +137,10 @@ export function ChatWidget() {
             {messages.map((msg) => (
               <div
                 key={msg.id}
-                className={`p-2.5 rounded-lg text-sm max-w-[85%] shadow-sm ${
-                  msg.role === 'user'
-                    ? 'bg-blue-600 text-white self-end rounded-br-none'
-                    : 'bg-white border border-gray-200 text-gray-800 self-start rounded-bl-none'
-                }`}
+                className={`p-3 rounded-xl text-sm max-w-[85%] shadow-sm ${msg.role === 'user'
+                  ? 'bg-blue-600 text-white self-end rounded-br-none'
+                  : 'bg-white border border-slate-200 text-slate-700 self-start rounded-bl-none'
+                  }`}
               >
                 {msg.role === 'user'
                   ? msg.content
@@ -177,7 +149,7 @@ export function ChatWidget() {
             ))}
 
             {isLoading && (
-              <div className="text-gray-400 text-xs self-start italic bg-gray-100 px-3 py-2 rounded-lg rounded-bl-none">
+              <div className="text-slate-400 text-xs self-start italic bg-slate-100 px-3 py-2 rounded-xl rounded-bl-none border border-slate-200">
                 Buscando en el plan de estudios...
               </div>
             )}
@@ -186,21 +158,21 @@ export function ChatWidget() {
 
           <form
             onSubmit={handleSubmit}
-            className="p-3 border-t border-gray-200 bg-white flex gap-2"
+            className="p-3 border-t border-slate-200 bg-white flex gap-2 items-center"
           >
             <input
-              ref={inputRef}
+              autoFocus
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Ej: ¿Qué necesito para Sistemas?"
-              className="flex-1 border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+              className="flex-1 border-2 border-blue-500 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-0 transition-all text-slate-700 placeholder-slate-400"
               disabled={isLoading}
             />
             <button
               type="submit"
               disabled={isLoading || !query.trim()}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 rounded-md text-sm disabled:bg-blue-300 transition-colors font-medium"
+              className="bg-blue-400 hover:bg-blue-500 text-white px-5 py-2 rounded-lg text-sm font-medium disabled:bg-blue-200 transition-colors"
             >
               Enviar
             </button>
