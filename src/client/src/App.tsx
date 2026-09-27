@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { useDashboard } from './hooks/useDashboard';
 import { SubjectCard } from './components/SubjectCard';
 import { ElectiveModal } from './components/ElectivesModal';
@@ -12,27 +12,32 @@ export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalYear, setModalYear] = useState(0);
 
-  console.log('App render', { subjects, progress, isLoading, error });
+  const handleCardClick = useCallback(
+    (subject: Subject) => {
+      if (subject.isElective && subject.name.startsWith('Electiva')) {
+        setModalYear(subject.year);
+        setIsModalOpen(true);
+      } else {
+        toggleStatus(subject);
+      }
+    },
+    [toggleStatus]
+  );
 
-  const handleCardClick = (subject: Subject) => {
-    if (subject.isElective && subject.name.startsWith('Electiva')) {
-      setModalYear(subject.year);
-      setIsModalOpen(true);
-    } else {
-      toggleStatus(subject);
+  const handleModalSave = useCallback(
+    (realSubjectId: string, status: ProgressStatus) => {
+      setIsModalOpen(false);
+      toggleStatus(realSubjectId, status);
+    },
+    [toggleStatus]
+  );
+
+  const { subjectsByYear, years } = useMemo(() => {
+    if (!subjects.length) {
+      return { subjectsByYear: {}, years: [] };
     }
-  };
-
-  const handleModalSave = (realSubjectId: string, status: ProgressStatus) => {
-    setIsModalOpen(false);
-    toggleStatus({ id: realSubjectId } as Subject, status, realSubjectId);
-  };
-
-  const displaySubjects = useMemo(() => {
-    if (!subjects.length) return [];
 
     const processed = subjects.map((s) => ({ ...s }));
-
     const takenPool3Subjects = processed.filter(
       (s) =>
         s.isElective &&
@@ -42,52 +47,47 @@ export default function App() {
     );
 
     const YEAR_3_CAPACITY = 1;
-
     takenPool3Subjects.forEach((sub, index) => {
-      if (index >= YEAR_3_CAPACITY) {
-        sub.year = 4;
-      }
+      if (index >= YEAR_3_CAPACITY) sub.year = 4;
     });
 
     const takenCounts: Record<number, number> = {};
     processed.forEach((s) => {
       const isReal = s.isElective && !s.name.startsWith('Electiva');
-      const isTaken = progress.has(s.id);
-
-      if (isReal && isTaken) {
+      if (isReal && progress.has(s.id)) {
         takenCounts[s.year] = (takenCounts[s.year] || 0) + 1;
       }
     });
 
-    return processed.filter((s) => {
+    const displaySubjects = processed.filter((s) => {
       const isPlaceholder = s.isElective && s.name.startsWith('Electiva');
       const isReal = s.isElective && !isPlaceholder;
       const isTaken = progress.has(s.id);
 
       if (isReal && !isTaken) return false;
-
-      if (isPlaceholder) {
-        if (takenCounts[s.year] && takenCounts[s.year] > 0) {
-          takenCounts[s.year]--;
-          return false;
-        }
+      if (isPlaceholder && takenCounts[s.year] && takenCounts[s.year] > 0) {
+        takenCounts[s.year]--;
+        return false;
       }
       return true;
     });
+
+    const subjectsByYear = displaySubjects.reduce(
+      (acc, subject) => {
+        if (!acc[subject.year]) acc[subject.year] = [];
+        acc[subject.year].push(subject);
+        return acc;
+      },
+      {} as Record<number, Subject[]>
+    );
+
+    return {
+      subjectsByYear,
+      years: Object.keys(subjectsByYear)
+        .map(Number)
+        .sort((a, b) => a - b),
+    };
   }, [subjects, progress]);
-
-  const subjectsByYear = displaySubjects.reduce(
-    (acc, subject) => {
-      if (!acc[subject.year]) acc[subject.year] = [];
-      acc[subject.year].push(subject);
-      return acc;
-    },
-    {} as Record<number, Subject[]>
-  );
-
-  const years = Object.keys(subjectsByYear)
-    .map(Number)
-    .sort((a, b) => a - b);
 
   return (
     <>

@@ -23,9 +23,11 @@ export function SubjectCard({
     status === 'ATTENDED' || status === 'APPROVED' || subject.canTake;
 
   return (
-    <div
-      onClick={() => isClickable && onClick(subject)}
-      className={`relative p-3 rounded-lg border-2 transition-all duration-200 select-none
+    <button
+      type="button"
+      disabled={!isClickable}
+      onClick={() => onClick(subject)}
+      className={`relative w-full p-3 rounded-lg border-2 transition-all duration-200 select-none text-left
         ${getStatusColor(status, subject.canTake)}
         ${subject.isIntegrator ? 'ring-1 ring-purple-300 ring-offset-1' : ''}
       `}
@@ -104,6 +106,6 @@ export function SubjectCard({
           </ul>
         </div>
       )}
-    </div>
+    </button>
   );
 }

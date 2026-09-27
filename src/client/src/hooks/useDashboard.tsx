@@ -37,42 +37,44 @@ export function useDashboard() {
     void Promise.resolve().then(fetchDashboard);
   }, [fetchDashboard]);
 
-  const toggleStatus = async (
-    subject: Subject,
-    overrideStatus?: ProgressStatus,
-    overrideId?: string
-  ) => {
-    const userId = getUserId();
-    const targetId = overrideId || subject.id;
+  const toggleStatus = useCallback(
+    async (subjectOrId: Subject | string, overrideStatus?: ProgressStatus) => {
+      const userId = getUserId();
+      const targetId =
+        typeof subjectOrId === 'string' ? subjectOrId : subjectOrId.id;
 
-    let next: string;
-    if (overrideStatus) {
-      next = overrideStatus;
-    } else {
-      const current = progress.get(targetId) || 'NOT_ENROLLED';
-      next = 'ATTENDED';
-      if (current === 'ATTENDED') next = 'APPROVED';
-      if (current === 'APPROVED') next = 'NOT_ENROLLED';
-    }
+      let next: string;
+      if (overrideStatus) {
+        next = overrideStatus;
+      } else {
+        const current = progress.get(targetId) || 'NOT_ENROLLED';
+        next = 'ATTENDED';
+        if (current === 'ATTENDED') next = 'APPROVED';
+        if (current === 'APPROVED') next = 'NOT_ENROLLED';
+      }
 
-    const newMap = new Map(progress);
-    if (next === 'NOT_ENROLLED') {
-      newMap.delete(targetId);
-    } else {
-      newMap.set(targetId, next as ProgressStatus);
-    }
-    setProgress(newMap);
+      const previousMap = progress;
+      const newMap = new Map(progress);
+      if (next === 'NOT_ENROLLED') {
+        newMap.delete(targetId);
+      } else {
+        newMap.set(targetId, next as ProgressStatus);
+      }
+      setProgress(newMap);
 
-    try {
-      await api.updateProgress(userId, targetId, next);
+      try {
+        await api.updateProgress(userId, targetId, next);
 
-      const data = await api.getDashboard(userId);
-      setSubjects(data);
-    } catch (e) {
-      console.error(e);
-      fetchDashboard();
-    }
-  };
+        const data = await api.getDashboard(userId);
+        setSubjects(data);
+      } catch (e) {
+        console.error(e);
+        setProgress(previousMap);
+        await fetchDashboard();
+      }
+    },
+    [fetchDashboard, progress]
+  );
 
   return { subjects, progress, isLoading, error, toggleStatus };
 }
