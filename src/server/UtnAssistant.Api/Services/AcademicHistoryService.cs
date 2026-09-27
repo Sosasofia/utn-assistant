@@ -46,7 +46,21 @@ public class AcademicHistoryService
                 subject.IsElective,
                 evaluation.Status,
                 evaluation.CanTake,
-                evaluation.MissingPrerequisites
+                evaluation.MissingPrerequisites,
+                CorrelativesAsTarget = subject.CorrelativesAsTarget
+                    .Select(rule => new
+                    {
+                        rule.Id,
+                        rule.Type,
+                        rule.IsTransient,
+                        RequiredSubject = new
+                        {
+                            rule.RequiredSubject.Id,
+                            rule.RequiredSubject.Code,
+                            rule.RequiredSubject.Name
+                        }
+                    })
+                    .ToList()
             };
         });
     }
