@@ -1,0 +1,994 @@
+{
+  "career": {
+    "id": "isi-2023",
+    "code": "ISI",
+    "name": "Ingeniería en Sistemas",
+    "version": "2023"
+  },
+  "subjects": [
+    {
+      "code": "1",
+      "name": "Análisis Matemático I",
+      "year": 1,
+      "semester": 1,
+      "correlatives": []
+    },
+    {
+      "code": "2",
+      "name": "Álgebra y Geometría Analítica",
+      "year": 1,
+      "semester": 1,
+      "correlatives": []
+    },
+    {
+      "code": "3",
+      "name": "Física I",
+      "year": 1,
+      "semester": 1,
+      "correlatives": []
+    },
+    {
+      "code": "4",
+      "name": "Inglés I",
+      "year": 1,
+      "semester": 1,
+      "correlatives": []
+    },
+    {
+      "code": "5",
+      "name": "Lógica y Estructuras Discretas",
+      "year": 1,
+      "semester": 2,
+      "correlatives": []
+    },
+    {
+      "code": "6",
+      "name": "Algoritmos y Estructuras de Datos",
+      "year": 1,
+      "semester": 2,
+      "correlatives": []
+    },
+    {
+      "code": "7",
+      "name": "Arquitectura de Computadoras",
+      "year": 1,
+      "semester": 2,
+      "correlatives": []
+    },
+    {
+      "code": "8",
+      "name": "Sistemas y Procesos de Negocio",
+      "year": 1,
+      "semester": 2,
+      "correlatives": []
+    },
+    {
+      "code": "9",
+      "name": "Análisis Matemático II",
+      "year": 2,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "1",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "2",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "10",
+      "name": "Física II",
+      "year": 2,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "1",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "2",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "3",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "11",
+      "name": "Ingeniería y Sociedad",
+      "year": 2,
+      "semester": 1,
+      "correlatives": []
+    },
+    {
+      "code": "12",
+      "name": "Inglés II",
+      "year": 2,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "4",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "13",
+      "name": "Sintaxis y Semántica de los Lenguajes",
+      "year": 2,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "5",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "6",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "14",
+      "name": "Paradigmas de Programación",
+      "year": 2,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "5",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "6",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "15",
+      "name": "Sistemas Operativos",
+      "year": 2,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "7",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "16",
+      "name": "Análisis de Sistemas de Información",
+      "year": 2,
+      "semester": 2,
+      "isIntegrator": true,
+      "correlatives": [
+        {
+          "code": "6",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "7",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "8",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "17",
+      "name": "Probabilidad y Estadística",
+      "year": 3,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "1",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "2",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Economía",
+      "year": 3,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "1",
+          "type": "APPROVED"
+        },
+        {
+          "code": "2",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "19",
+      "name": "Bases de Datos",
+      "year": 3,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "13",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "14",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "15",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "16",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "5",
+          "type": "APPROVED"
+        },
+        {
+          "code": "6",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "20",
+      "name": "Desarrollo de Software",
+      "year": 3,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "14",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "16",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "5",
+          "type": "APPROVED"
+        },
+        {
+          "code": "6",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "21",
+      "name": "Comunicación de Datos",
+      "year": 3,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "3",
+          "type": "APPROVED"
+        },
+        {
+          "code": "4",
+          "type": "APPROVED"
+        },
+        {
+          "code": "5",
+          "type": "APPROVED"
+        },
+        {
+          "code": "6",
+          "type": "APPROVED"
+        },
+        {
+          "code": "7",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "22",
+      "name": "Análisis Numérico",
+      "year": 3,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "9",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "1",
+          "type": "APPROVED"
+        },
+        {
+          "code": "2",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "23",
+      "name": "Diseño de Sistemas de Información",
+      "year": 3,
+      "semester": 2,
+      "isIntegrator": true,
+      "correlatives": [
+        {
+          "code": "14",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "16",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "4",
+          "type": "APPROVED"
+        },
+        {
+          "code": "6",
+          "type": "APPROVED"
+        },
+        {
+          "code": "8",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "ELEC3-1",
+      "name": "Electiva (1)",
+      "year": 3,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "24",
+      "name": "Legislación",
+      "year": 4,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "11",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "25",
+      "name": "Ingeniería y Calidad de Software",
+      "year": 4,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "19",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "20",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "23",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "13",
+          "type": "APPROVED"
+        },
+        {
+          "code": "14",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "26",
+      "name": "Redes de Datos",
+      "year": 4,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "15",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "21",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "27",
+      "name": "Investigación Operativa",
+      "year": 4,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "17",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "22",
+          "type": "ATTENDED"
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "name": "Simulación",
+      "year": 4,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "17",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "9",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "29",
+      "name": "Tecnologías para la automatización",
+      "year": 4,
+      "semester": 2,
+      "correlatives": [
+        {
+          "code": "10",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "22",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "9",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "30",
+      "name": "Administración de Sistemas de Información",
+      "year": 4,
+      "semester": 2,
+      "isIntegrator": true,
+      "correlatives": [
+        {
+          "code": "18",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "19",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "20",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "21",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "22",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "23",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "16",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "ELEC4-1",
+      "name": "Electiva (1)",
+      "year": 4,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "ELEC4-2",
+      "name": "Electiva (2)",
+      "year": 4,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "31",
+      "name": "Inteligencia Artificial",
+      "year": 5,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "28",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "17",
+          "type": "APPROVED"
+        },
+        {
+          "code": "22",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "32",
+      "name": "Ciencia de Datos",
+      "year": 5,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "28",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "17",
+          "type": "APPROVED"
+        },
+        {
+          "code": "18",
+          "type": "APPROVED"
+        },
+        {
+          "code": "19",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "33",
+      "name": "Sistemas de Gestión",
+      "year": 5,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "18",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "19",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "20",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "21",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "22",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "23",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "24",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "25",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "26",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "27",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "23",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "34",
+      "name": "Gestión Gerencial",
+      "year": 5,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "24",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "25",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "26",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "27",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "28",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "29",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "30",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "18",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "35",
+      "name": "Seguridad en los Sistemas de Información",
+      "year": 5,
+      "semester": 1,
+      "correlatives": [
+        {
+          "code": "26",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "27",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "28",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "29",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "30",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "20",
+          "type": "APPROVED"
+        },
+        {
+          "code": "21",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "36",
+      "name": "Proyecto Final",
+      "year": 5,
+      "semester": 2,
+      "isIntegrator": true,
+      "correlatives": [
+        {
+          "code": "25",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "26",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "30",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "12",
+          "type": "APPROVED"
+        },
+        {
+          "code": "20",
+          "type": "APPROVED"
+        },
+        {
+          "code": "23",
+          "type": "APPROVED"
+        }
+      ]
+    },
+    {
+      "code": "ELEC5-1",
+      "name": "Electiva (1)",
+      "year": 5,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "ELEC5-2",
+      "name": "Electiva (2)",
+      "year": 5,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "ELEC5-3",
+      "name": "Electiva (3)",
+      "year": 5,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    },
+    {
+      "code": "ELEC5-4",
+      "name": "Electiva (4)",
+      "year": 5,
+      "semester": 2,
+      "isElective": true,
+      "correlatives": []
+    }
+  ],
+  "electives": [
+    {
+      "comment": "--- ELECTIVAS NIVEL 3/4 ---",
+      "prerequisites": [
+        {
+          "code": "16",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "13",
+          "type": "ATTENDED"
+        },
+        {
+          "code": "14",
+          "type": "ATTENDED"
+        }
+      ],
+      "subjects": [
+        {
+          "code": "ELEC-301",
+          "name": "Administración Estratégica del Capital Humano",
+          "year": 3
+        },
+        {
+          "code": "ELEC-302",
+          "name": "Ciberseguridad",
+          "year": 3
+        },
+        {
+          "code": "ELEC-303",
+          "name": "Comunicación Gráfica y Visual",
+          "year": 3
+        },
+        {
+          "code": "ELEC-304",
+          "name": "Creatividad e Innovación",
+          "year": 3
+        },
+        {
+          "code": "ELEC-305",
+          "name": "Criptografía",
+          "year": 3
+        },
+        {
+          "code": "ELEC-306",
+          "name": "Experiencia de Usuario y Accesibilidad",
+          "year": 3
+        },
+        {
+          "code": "ELEC-307",
+          "name": "Gerenciamiento de Proyectos de Sistemas",
+          "year": 3
+        },
+        {
+          "code": "ELEC-308",
+          "name": "Gestión del Talento Humano",
+          "year": 3
+        },
+        {
+          "code": "ELEC-309",
+          "name": "Ingeniería de Requisitos",
+          "year": 3
+        },
+        {
+          "code": "ELEC-310",
+          "name": "Metodología de Investigación Científico-Tecnológica",
+          "year": 3
+        },
+        {
+          "code": "ELEC-311",
+          "name": "Metodología de la Conducción de Equipos de Trabajo",
+          "year": 3
+        },
+        {
+          "code": "ELEC-312",
+          "name": "Patrones Algorítmicos",
+          "year": 3
+        },
+        {
+          "code": "ELEC-313",
+          "name": "Procesamiento del Lenguaje Natural",
+          "year": 3
+        },
+        {
+          "code": "ELEC-314",
+          "name": "Química Ambiental",
+          "year": 3
+        },
+        {
+          "code": "ELEC-315",
+          "name": "Técnicas Avanzadas de Programación",
+          "year": 3
+        },
+        {
+          "code": "ELEC-316",
+          "name": "Técnicas de Gráficos por Computadora",
+          "year": 3
+        },
+        {
+          "code": "ELEC-317",
+          "name": "Tecnologías Avanzadas en la Construcción de Software",
+          "year": 3
+        },
+        {
+          "code": "ELEC-318",
+          "name": "Tendencias y Escenarios Tecnológicos",
+          "year": 3
+        },
+        {
+          "code": "ELEC-319",
+          "name": "Transformación Digital",
+          "year": 3
+        }
+      ]
+    },
+    {
+      "comment": "--- ELECTIVAS NIVEL 5 ---",
+      "prerequisites": [
+        {
+          "code": "23",
+          "type": "APPROVED"
+        }
+      ],
+      "subjects": [
+        {
+          "code": "ELEC-501",
+          "name": "Bioinformática",
+          "year": 5
+        },
+        {
+          "code": "ELEC-502",
+          "name": "Ciberseguridad Industrial",
+          "year": 5
+        },
+        {
+          "code": "ELEC-503",
+          "name": "Ciudades Digitales y Gobierno Electrónico",
+          "year": 5
+        },
+        {
+          "code": "ELEC-504",
+          "name": "Desarrollo de Aplicaciones para Dispositivos Móviles",
+          "year": 5
+        },
+        {
+          "code": "ELEC-505",
+          "name": "Dirección Estratégica",
+          "year": 5
+        },
+        {
+          "code": "ELEC-506",
+          "name": "Gestión de Empresas Digitales",
+          "year": 5
+        },
+        {
+          "code": "ELEC-507",
+          "name": "Gestión de la Transformación Digital",
+          "year": 5
+        },
+        {
+          "code": "ELEC-508",
+          "name": "Arquitectura de Software Concurrente",
+          "year": 5
+        },
+        {
+          "code": "ELEC-509",
+          "name": "Bases de Datos NoSQL",
+          "year": 5
+        },
+        {
+          "code": "ELEC-510",
+          "name": "Plataformas de Virtualización",
+          "year": 5
+        },
+        {
+          "code": "ELEC-511",
+          "name": "Inteligencia Artificial Avanzada",
+          "year": 5
+        },
+        {
+          "code": "ELEC-512",
+          "name": "Inteligencia de Negocios",
+          "year": 5
+        },
+        {
+          "code": "ELEC-513",
+          "name": "Sistemas Avanzados de Telecomunicación",
+          "year": 5
+        },
+        {
+          "code": "ELEC-514",
+          "name": "Economía del Conocimiento",
+          "year": 5
+        },
+        {
+          "code": "ELEC-515",
+          "name": "Pericias Informáticas",
+          "year": 5
+        },
+        {
+          "code": "ELEC-516",
+          "name": "Procesamiento de Imágenes y Señales",
+          "year": 5
+        },
+        {
+          "code": "ELEC-517",
+          "name": "Seguridad en Aplicaciones Web",
+          "year": 5
+        },
+        {
+          "code": "ELEC-518",
+          "name": "Sistemas de Costos y Presupuestos",
+          "year": 5
+        },
+        {
+          "code": "ELEC-519",
+          "name": "Tecnologías Aplicadas a Soluciones de Datos",
+          "year": 5
+        },
+        {
+          "code": "ELEC-520",
+          "name": "Tecnologías Avanzadas en Redes",
+          "year": 5
+        },
+        {
+          "code": "ELEC-521",
+          "name": "Desarrollo de Modelos Analíticos (Machine Learning)",
+          "year": 5
+        },
+        {
+          "code": "ELEC-522",
+          "name": "Neurociencia Aplicada",
+          "year": 5
+        }
+      ]
+    }
+  ]
+}

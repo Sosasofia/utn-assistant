@@ -1,0 +1,3895 @@
+
+
+ “Las Malvinas son argentinas”     
+    
+                          
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+DISEÑO CURRICULAR DE INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+- Plan 2023- 
+ 
+Buenos Aires, 15 de junio de 2022. 
+ 
+VISTO el desarrollo académico de la carrera Ingeniería en Sistemas de Información 
+en el ámbito de la Universidad Tecnológica Nacional, y  
+ 
+CONSIDERANDO: 
+Que el Ministerio de Educación según Resolución Ministerial Nº 1254/2018 estableció 
+las nuevas actividades reservadas de las carreras de Ingeniería.  
+Que la Universidad Tecnológica Nacional – UTN, a  través  de  su  Consejo  Superior 
+aprobó, el de 5 de marzo de 2020 según Ordenanza Nº 1753, los Lineamientos Generales para 
+Nuevos Diseños Curriculares de Ingeniería, con el objetivo de incorporar el nuevo enfoque sobre 
+las actividades reservadas y alcances como los nuevos estándares de acreditación. 
+ Que   por Resolución   de   Consejo   Superior   Nº   368/2021,   se   establecieron   los 
+lineamientos generales para dar inicio al proceso de adecuación de los diseños curriculares de las 
+carreras de Ingeniería en todo el ámbito de la Universidad. 
+Que, para el desarrollo del nuevo diseño curricular de la carrera Ingeniería en Sistemas 
+de Información, se tomaron como base la Resolución Ministerial Nº 1557/2021 y su modificatoria 
+RM  N° 1575/2022 - Contenidos Curriculares  Básicos,  Carga  Horaria  Mínima,  Criterios  de 
+Intensidad  de  la Formación  Práctica  y  Estándares  para  la  Acreditación  de  la  carrera y  las 
+recomendaciones  plasmadas  en  el  Libro  Rojo  del  Consejo  Federal  de  Decanos  de  Ingeniería 
+(CONFEDI). 
+Que,  de  acuerdo  con  las  consideraciones  establecidas, el  Diseño  Curricular  de 
+Ingeniería en  Sistemas  de  Información da respuesta  a  las  exigencias  determinadas  en  las 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+2 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+normativas ministeriales vigentes y cumple con la misión de la Universidad Tecnológica Nacional, 
+así como sus objetivos en relación con lo académico, establecidos en el Estatuto de la UTN 
+Que  la  Comisión  de  Enseñanza  evaluó  la  propuesta  acordada  por el  Consejo  de 
+Directores y  Directoras de  Departamento  de  Ingeniería en  Sistemas  de  Información con  la 
+coordinación  de  la  Secretaría  Académica  y  de  Posgrado  de  la  Universidad  y  aconsejó  su 
+aprobación. 
+Que  el  dictado  de  la medida  se  efectúa en  uso de  las  atribuciones  otorgadas  por  el 
+Estatuto de la Universidad. 
+ 
+Por ello, 
+EL CONSEJO SUPERIOR DE LA UNIVERSIDAD TECNOLÓGICA NACIONAL 
+ORDENA: 
+ARTICULO 1°. -  Aprobar el Diseño Curricular de la Carrera Ingeniería en Sistemas de Información 
+- Plan 2023 – para todo el ámbito de la Universidad Tecnológica Nacional. 
+ARTICULO 2°. - Regístrese. Comuníquese y archívese. 
+ 
+ORDENANZA Nº 1877 
+ 
+UTN 
+  
+ 
+ 
+ 
+Mgb 
+  
+ 
+ 
+                       Ing. RUBÉN SORO 
+                     Rector 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                                                                                         Ing. PABLO ROSSO  
+                    Secretario del Consejo Superior 
+ 
+ 
+ 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+3 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+ 
+ANEXO I 
+ORDENANZA N° 1877 
+DISEÑO CURRICULAR DE INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+- Plan 2023- 
+INDICE 
+1.- FUNDAMENTACIÓN .............................................................................................................. 4 
+1.1.- Antecedentes ...................................................................................................................... 4 
+1.2.- Marco Conceptual .............................................................................................................. 7 
+1.4.- Asignaturas ......................................................................................................................... 9 
+2.- OBJETIVOS DE LA CARRERA ............................................................................................ 10 
+3.- PERFIL PROFESIONAL ....................................................................................................... 11 
+3.1.  Título que otorga .............................................................................................................. 11 
+3.2. Perfil del Ingeniero y la Ingeniera de la UTN .................................................................... 11 
+3.3. Perfil Profesional ............................................................................................................... 12 
+4.- ALCANCES DEL TÍTULO..................................................................................................... 13 
+5.- COMPETENCIAS DE EGRESO............................................................................................ 15 
+5.1.- Competencias Genéricas. ................................................................................................ 15 
+5.2.- Competencias Específicas .............................................................................................. 16 
+6.- ORGANIZACIÓN DE LA CARRERA .................................................................................... 19 
+6.1 Duración de la Carrera y modalidad de cursada. ............................................................. 19 
+6.2.- Organización por áreas, bloques y asignaturas ............................................................. 19 
+6.2.1.- Áreas: ............................................................................................................................. 19 
+6.2.2.- Conformación de bloques............................................................................................. 21 
+6.3.- Formación Práctica .......................................................................................................... 24 
+6.3.1.- Criterios de intensidad dentro la formación práctica: ................................................ 25 
+6.4.- Matriz de Competencias Específicas .............................................................................. 27 
+6.5.- Metodología Pedagógica y Evaluación ........................................................................... 32 
+7.- PLAN DE ESTUDIO .............................................................................................................. 36 
+8.- PROGRAMAS SINTÉTICOS ................................................................................................ 38 
+9- EVALUACIÓN Y ACTUALIZACIÓN DEL DISEÑO CURRICULAR ....................................... 75 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+4 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+DISEÑO CURRICULAR DE INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+- Plan 2023- 
+1.- FUNDAMENTACIÓN  
+1.1.- Antecedentes 
+Mediante  la  Ordenanza  N°  1753  del  2020,  el  Consejo  Superior  (CS)  de  la  UTN  aprobó  los 
+Lineamientos Generales para Diseños Curriculares de ingeniería. La Resolución de CS N° 368/21 
+estableció  lineamientos  generales  para  el  proceso  de  adecuación  curricular.  La  Resolución 
+Ministerial (RM) 1254/2018, establece las Actividades Reservadas de las carreras de Ingeniería, 
+en tanto que la RM 1557/2021, y su modificatoria RM N° 1575/2022, aprueba los estándares de 
+acreditación de la carrera. Esta normativa, junto con las recomendaciones plasmadas en el Libro 
+Rojo del Consejo Federal de Decanos de Ingeniería (CONFEDI), constituyen la base del presente 
+Diseño Curricular. 
+El  Diseño  Curricular  incluye  un  conjunto  sistematizado  de  conceptos,  objetivos,  competencias, 
+contenidos, series de asignaturas, metodologías y criterios de evaluación que definen una carrera 
+universitaria  y  orientan  la  práctica  educativa.  Determina  la  organización  de los  recursos 
+pedagógicos  de  la  institución,  los  procesos  de  enseñanza  y  de  aprendizaje  y  el  sentido  de  la 
+práctica profesional. 
+Debe  tener  en  cuenta  todas  las  variables  intervinientes  en  el  proceso  de  enseñanza  y  de 
+aprendizaje, el perfil y los alcances del título, como así también la misión y los objetivos generales 
+de  la  Universidad  Tecnológica  Nacional  para  formar  profesionales  que  den  respuestas  a  las 
+necesidades  del  medio  socio  productivo,  pero  que  a  su  vez  sean  capaces  de  adecuarse  a  las 
+demandas que se presenten en el futuro y, eventualmente, influir en el medio de manera proactiva 
+y propositiva. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+5 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+La  dinámica  de  los  cambios  de  la  sociedad  y  la  necesidad  de  liderarlos  hace  que,  en  la 
+Universidad, se instale la exigencia de responder a los desafíos inminentes y fundamentales, para 
+lo cual debe articular pertinencia y calidad.  
+Enfrentar  airosamente  esos  desafíos  requiere  la  implementación  de  acciones  sistemáticas  que 
+permitan idear un modelo prospectivo de Universidad que dé respuestas a la sociedad procurando 
+la formación integral de sus profesionales.  
+La definición estratégica de las carreras de Ingeniería de la UTN requiere explicitar puntos de vista, 
+marcos  de  significación,  intereses  y  expectativas  de  los  actores,  así  como  su  inserción  en  un 
+contexto social y económico definido. Las funciones que se identifican para la Universidad desde 
+la  perspectiva  de  las  actuales  teorías  sobre  el  conocimiento  y  su  impacto  sobre  la  trama  socio 
+productiva, modifican el papel de su rol tradicional como formadora de profesionales y generadora 
+de conocimiento, hacia la articulación con empresas y entidades en general, de acuerdo con los 
+postulados  de  la  Economía  de  la  Innovación,  según  la  cual,  la  acumulación  de  conocimiento, 
+proceso  complejo  de  entrelazamiento  entre  ideas  y  habilidades,  es  la  base  del  crecimiento 
+económico y el desarrollo territorial. La investigación, el desarrollo tecnológico y la transferencia al 
+medio, constituyen así funciones indisociables de la enseñanza en la Universidad. 
+Por otra parte, la Universidad no puede desentenderse de las necesidades explícitas e inmediatas 
+de  la  sociedad,  expresadas  como  el  requerimiento  de  un  sistema  educativo  flexible,  capaz  de 
+atender  demandas  de  aprendizaje  continuo  a  distintos  niveles,  acordes  con  los  permanentes 
+cambios sociales y tecnológicos.  
+De acuerdo con estas consideraciones, la definición curricular de las carreras de ingeniería, debe 
+sustentarse  en  un  modelo  de  formación  que  atienda  simultáneamente  varias  dimensiones:  la 
+rigurosidad razonable de la formación tanto en ciencias básicas como aplicadas que confluyen en 
+el  desarrollo  de  competencias,  el  balance  entre  teoría  y  práctica  tanto  en  la  incorporación  de 
+habilidades,  conceptos  e  información,  como  en  el  enfoque  para  la  resolución  de  problemas  no 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+6 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+explícitos, la satisfacción de las expectativas vocacionales en el marco del desarrollo profesional, 
+la inserción de los temas propios de cada asignatura en el paradigma técnico-productivo vigente, 
+el desarrollo de competencias útiles y válidas en el contexto socioeconómico actual y prospectivo, 
+la  orientación  de  los  y  las  cursantes  hacia  el  reconocimiento  y  el  desarrollo  de  ventajas 
+competitivas que faciliten su acceso a empleos profesionales consistentes tanto con la formación, 
+intereses y capacidades individuales, como con las demandas tácitas y explícitas del ámbito social 
+y productivo inmediato o mediato, sin descuidar la formación emprendedora y de generación de 
+empleos. 
+En función de la visión descripta, el diseño de las carreras de Ingeniería en UTN debe avanzar 
+sustancialmente  hacia  la  formación  de  profesionales  capaces  de  atender  las  demandas  y 
+necesidades de la sociedad en general y del mercado laboral en particular, que hoy en día están 
+signados  por  nuevos  paradigmas  tecno-productivos  basados  en  el  permanente  y  significativo 
+avance  de  las  TIC.  También  deben  ser  capaces  de  asumir  la  responsabilidad  ética  frente  a 
+requerimientos sociales, cada vez más explícitos, de respeto medioambiental y preservación de 
+recursos  para  las  generaciones  futuras,  que  en  el  ámbito  técnico  se  expresan  mediante  la 
+concepción  del  desarrollo  sostenible,  teniendo  en  cuenta  la  configuración  de  nuevos  espacios 
+transdisciplinarios. 
+La  carrera  de  Ingeniería  en  Sistemas  de  Información  fue  puesta  en vigencia  en  la  Universidad 
+Tecnológica Nacional en el año 1985 y posteriormente, a los diez años de su implementación y en 
+virtud de la experiencia acumulada por las Facultades Regionales en las que se dicta, se produjo 
+una transformación académica de la carrera.  
+Se destacan como fundamentos de esta modificación los lineamientos generales del Anexo I de 
+la Resolución N° 326/92, del Consejo Superior de UTN, sobre Diseño Curricular y en particular:  
+● Actualizar los criterios para la formación en Ingeniería.  
+● Aumentar la motivación de la comunidad educativa.  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+7 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+● Facilitar la inserción laboral de quienes se gradúan en la UTN.  
+● Formar profesionales con capacidad para generar cambios.  
+Actualmente la Carrera se brinda en trece Facultades Regionales de la UTN y quienes las dirigen 
+conforman  el  Consejo  de  Directores y  Directoras  de  la  Especialidad,  a  la  vez  participan 
+activamente  en  la  Red  de  Ingeniería  en  Informática/Sistemas  de  Información  de  CONFEDI 
+(RIISIC).  Esto  permite  poder  compartir  necesidades,  experiencias,  recursos  y  problemáticas  a 
+nivel nacional de quienes implementan la terminal. 
+En el marco de la RED DE INGENIERÍA EN INFORMÁTICA / SISTEMAS -  RIISIC, se analizaron 
+las nuevas actividades reservadas propuestas por el Consejo Interuniversitario (CIN), Resolución 
+CE  N°  1459/2019,  y  aprobadas  por  Resolución  del  Ministerio  de  Educación  N°  1254/2018.  La 
+RIISIC   propuso   los   descriptores   necesarios   para   dar   cumplimiento   a   dichas   actividades 
+reservadas, los cuales fueron incluidos en la Propuesta de Estándares de Segunda Generación 
+para la Acreditación de Carreras de Ingeniería de la República Argentina de CONFEDI (Libro Rojo 
+de CONFEDI).  
+Dichos descriptores fueron expresados en la Resolución del Ministerio de Educación 1557/2021, 
+y su modificatoria RM N° 1575/2022, a partir de los cuales el Consejo de Directores y Directoras 
+de Ingeniería en Sistemas de Información de la universidad trabajó en la Adecuación de la Carrera, 
+teniendo en cuenta los lineamientos contenidos y expresados por el Consejo Superior de la UTN 
+en: 
+● Ordenanza 1753/2020- Lineamientos Generales para Diseños Curriculares de Ingeniería 
+● Resolución 368/2021- Lineamientos generales para el proceso de adecuación curricular. 
+1.2.- Marco Conceptual 
+Se propone un Diseño curricular: 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+8 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+- Flexible, que establezca los contenidos básicos en relación con las competencias específicas, 
+permitiendo la profundización de las mismas de acuerdo con los requerimientos de cada región, 
+de  los  proyectos  de  cada  Facultad  Regional,  el  compromiso  social y  las  necesidades  de 
+actualización,  como  también  ofrecer  asignaturas  electivas  que  permitan  a  la  y  el  estudiante 
+explorar  en  áreas  alternativas,  definiendo  su  propio  proceso  de  profundización  conceptual  y 
+apropiación de las áreas del conocimiento a las cuales se sienta orientado. 
+- Con un balance equilibrado de competencias y conocimientos básicos, científicos, tecnológicos 
+y de gestión, que incorpore una adecuada formación general; que facilite la adquisición de los 
+nuevos conocimientos y herramientas derivados del avance de la ciencia y tecnología, en un 
+marco  multicultural  y  de  inclusión  y,  sobre  todo  que  permita  desarrollar  la  competencia 
+fundamental de “aprender a aprender”. 
+- Donde  la  convergencia  de  la  educación  tecnológica  y  humanística  prepare  a  los  y  las 
+estudiantes para vivir en un mundo donde los eventos tecnológicos, científicos, humanísticos y 
+sociales están entremezclados. Es decir, personas formadas para un mundo complejo, en el 
+cual la certidumbre y la linealidad han quedado en el pasado.  
+- Con  formación  que  incluya  un  abordaje  interdisciplinario,  teniendo  en  cuenta  que  los 
+descubrimientos científicos y tecnológicos que movilizan la frontera del conocimiento ya no son 
+más  de  carácter  disciplinar.  Por  el  contrario,  son  de  naturaleza  inter  y  transdisciplinaria.  Se 
+propone abordar lo inter y transdisciplinario en la mayor cantidad de asignaturas, especialmente 
+en las específicas de la disciplina y en espacios interdisciplinarios. 
+- Que vincule la formación con los problemas de la profesión, incorpore la tecnología como medio 
+para  facilitar  los  aprendizajes,  y  la  formación  en  tecnologías  propias  y  actuales  del  ejercicio 
+profesional. 
+- Que considere procesos de acreditación de actividades extracurriculares.  
+- Que  considere  créditos  para  reconocer  trayectos  formativos,  los  cuales  se  basarán  en  la 
+normativa que apruebe el CS de la Universidad. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+9 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+1.3.- Asignaturas 
+El diseño curricular de la carrera se estructura sobre la base de algunas asignaturas integradoras 
+del Área Sistemas de Información. 
+Además  de  dicha  área,  y  a  la  luz  de  las  Actividades  Reservadas  asignadas  a  la  terminal,  se 
+construyeron dos Áreas específicas que desarrollan contenidos relacionados a: Comunicación de 
+Datos y a Desarrollo de Software.  
+Entre esas tres áreas se proponen contenidos y objetivos que aportan verticalmente al logro de 
+las  competencias  específicas  de  la  carrera  y,  a  la  vez,  se  establecen  colaboraciones  con 
+asignaturas de las otras áreas fomentando la interacción entre ellas.  
+Por  otra  parte,  en  el  Diseño  Curricular  se  incluye  la  asignatura  Proyecto  Final,  que  produce  la 
+integración  global  de  saberes  y  habilidades  desarrolladas  durante  el  cursado  de  la  carrera, 
+pudiendo incorporar actividades interdisciplinarias, que vinculen asignaturas de diferentes áreas 
+de la carrera e incluso con otras posibilidades de vinculación, si fuera factible. Además, para el 
+título  intermedio  de  Analista  Desarrollador Universitario  de  Sistemas  de  Información/Analista 
+Desarrolladora Universitaria de  Sistemas  de Información,  se  incluye  la  asignatura  Seminario  de 
+Integración, que permite la integración de los saberes y habilidades requeridos para la obtención 
+de dicha titulación. 
+Otra   característica   importante   es   la   inclusión   de   asignaturas   electivas   que   permiten   la 
+flexibilización  académica  del  plan  de  estudio,  anteriormente  mencionada,  y  posibilitan  incluir 
+temáticas que respondan a las necesidades regionales del medio en que se implementa la carrera. 
+Es un conjunto de horas, incluidas en el plan de estudios, disponibles para la gestión de la carrera, 
+de  cada  Facultad  Regional,  y  que  complementa  con  libertad  de  proponer  contenidos  técnicos, 
+sociales o gerenciales, según la perspectiva local y que colabore en la formación y especialización 
+de quienes se gradúen. Las mismas facilitan la actualización de temáticas, tanto de habilidades 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+10 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+blandas  como  técnicas,  con  base  en  los  lineamientos  para  la  implementación  de  asignaturas 
+electivas de la Ordenanza 1383/2012, la cual establece una renovación periódica. 
+ 
+ 2.- OBJETIVOS DE LA CARRERA  
+La carrera tiene como objetivo preparar profesionales en Ingeniería en Sistemas de Información 
+en  el  ámbito  de  la  tecnología,  capaces  de  actuar  con  eficiencia,  responsabilidad,  creatividad, 
+sentido crítico y sensibilidad social, para satisfacer las necesidades del medio socio productivo, y 
+para generar y emprender alternativas innovadoras que promuevan sustentablemente el desarrollo 
+económico nacional y regional, en un marco de justicia social y solidaridad. 
+La carrera de Ingeniería en Sistemas de Información tiene como fin formar profesionales para la 
+práctica exitosa de la profesión, competentes y capaces, demostrando para ello: 
+● Una sólida formación técnica. 
+● Capacidad para trabajar en equipos multidisciplinarios, interactuando en todos los posibles 
+niveles del ejercicio profesional. 
+● Aptitudes de comunicación eficaz y participación proactiva. 
+● Principios  éticos  en  el  ejercicio  de  la  profesión, asumiendo  responsabilidades  sociales  y 
+profesionales. 
+● Capacidad   para   la   formación   continua   que   exige   el   avance   de   la   profesión, 
+complementando con formación de posgrado, cuando fuera necesario. 
+● Capacidad para actuar creativamente en diseño, proyecto y ejecución de los sistemas de 
+información, con criterios de máxima calidad y competitividad, orientando su acción hacia 
+el perfeccionamiento del ser humano como coejecutor o usuario. 
+● Capacidad  para  utilizar  racionalmente  los  recursos  naturales  del  país  o  de  la  región, 
+previendo su preservación y la conservación del ambiente natural y humano. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+11 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+● Capacidad para actuar en planos directivos, dentro de la industria y la sociedad, con nivel 
+cultural  y  humanístico  acordes  con  su  jerarquía  universitaria,  creando  en  todo  momento 
+espíritu de solidaridad social y de valorización de la realidad histórica del país. 
+● Compromiso con los Objetivos de Desarrollo Sostenible en todos los ámbitos de actuación. 
+En  resumen,  la  carrera  de  Ingeniería  en  Sistemas  de  Información  tiene  como  fin  formar 
+profesionales con capacidad para  desarrollar  sistemas  de  ingeniería  y  tecnología  afines  a  los 
+existentes y producir innovaciones.  
+La formación se orienta a lograr profesionales capaces de analizar y evaluar requerimientos de 
+sistemas de información, y sobre esa base, diseñar, desarrollar, organizar, implementar y controlar 
+sistemas informáticos, al servicio de múltiples necesidades de información, de las organizaciones 
+y de todas las profesiones con las que deberá interactuar con versatilidad y vocación de servicio 
+interdisciplinario. 
+3.- PERFIL PROFESIONAL  
+3.1.  Título que otorga 
+Grado: Ingeniero en Sistemas de Información / Ingeniera en Sistemas de Información. 
+Intermedio: Analista Desarrollador Universitario de Sistemas de Información / Analista 
+Desarrolladora Universitaria de Sistemas de Información. 
+3.2. Perfil del Ingeniero y la Ingeniera de la UTN  
+Quienes se gradúan en la UTN se han formado para ejercer su profesión con idoneidad, ética y 
+competencia  en  cualquier  lugar  del  mundo  y,  especialmente,  en  cualquiera  de  los  países  de  la 
+región debido a su comprensión de los valores históricos, culturales y sociales que nos identifican.  
+Su formación está orientada al manejo, aprovechamiento, cuidado y conocimiento de los recursos, 
+en base a las expectativas y necesidades de la región iberoamericana.  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+12 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+La competencia de autoformación y la flexibilidad para aceptar la naturaleza permanente de los 
+cambios son parte de su formación como profesional con capacidad de innovación para atender 
+el impacto que tienen en la región los dinámicos cambios del conocimiento, la obsolescencia de 
+las tareas profesionales, los virajes en la orientación geoeconómica, los acuerdos sobre protección 
+del ambiente y las crecientes demandas de participación democrática y desarrollo sostenido. 
+Se caracterizan por enfocarse en la producción sostenible preservando los recursos naturales para 
+las generaciones futuras y la responsabilidad de mantener el equilibrio entre la protección de estos 
+recursos y la satisfacción de las necesidades básicas de la población. Asumen la responsabilidad 
+de resolver los problemas de las comunidades y de las regiones o territorios a las que pertenecen. 
+En  resumen,  se forman profesionales globales  con  compromiso  y  pertinencia  local,  con  sólidas 
+bases  científicas,  técnicas,  tecnológicas,  culturales  y  con  arraigados  valores  y  principios, 
+conscientes de la importancia y significado de sus nexos con la historia y el desarrollo regional, 
+fieles a sus compromisos sociales y ambientales, con capacidad para identificar los problemas y 
+oportunidades  del  entorno  para  actuar  de  manera  responsable  y  competente  en  cualquier 
+escenario nacional e internacional. 
+3.3. Perfil Profesional 
+El profesional en Ingeniería en Sistemas de Información tiene una sólida formación analítica, que 
+le  permite  la  interpretación  y  resolución  de  problemas  mediante  el  empleo  de  metodologías  de 
+sistemas y tecnologías de la información y las comunicaciones.  
+Por   su   preparación, resultan   personas   especialmente   aptas   para   integrar   la   información 
+proveniente de distintos campos disciplinarios concurrentes a un proyecto común.  
+La capacidad adquirida en la Universidad Tecnológica Nacional le permite afrontar con solvencia 
+el  planeamiento,  desarrollo,  dirección  y  control  de  los  sistemas  de  información,  sistemas  de 
+comunicación de datos y de software.  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+13 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Su  formación  profesional  lo  habilita  para  el  desempeño  de  funciones  gerenciales  con  actitud 
+proactiva. 
+Las personas que se gradúan en esta especialidad están capacitadas para emprender proyectos 
+de innovación y desarrollo, integrando equipos interdisciplinarios, asumiendo el liderazgo efectivo 
+en la gestión técnica y metodológica, con compromiso en el avance local y regional.  
+Las   competencias  adquiridas   en   su  formación  habilitan,   a  quienes   se  gradúan,   para  la 
+comunicación de los conocimientos involucrados en el desempeño de la profesión.  
+La preparación integral posiciona, a quienes obtienen el título de grado de la carrera de Ingeniería 
+en Sistemas de Información, de manera relevante en un medio donde la sociedad demanda un 
+gran compromiso con la preservación del medio ambiente, el mejoramiento de la calidad de vida 
+en general y responsabilidad en el quehacer profesional.   
+ 
+4.- ALCANCES DEL TÍTULO 
+A los fines de la enumeración de los alcances del título se ha tomado el criterio de separar aquellos 
+alcances  que  constituyen  Actividades  Reservadas  de  la  carrera,  tal  como  se  indican  en  la 
+Resolución  Ministerial 1254/2018-Anexo XXXII, identificándolos con el prefijo AR, quedando los 
+restantes identificados con el prefijo AL. 
+La carrera, tiene definidas las siguientes Actividades Reservadas (AR):   
+AR1: Especificar, proyectar y desarrollar sistemas de información, sistemas de comunicación de 
+datos y software cuya utilización pueda afectar la seguridad, salud, bienes o derechos.  
+AR2: Proyectar y dirigir lo referido a seguridad informática.  
+AR3: Establecer métricas y normas de calidad de software.  
+AR4: Certificar el funcionamiento, condición de uso o estado de lo mencionado anteriormente. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+14 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+AR5:  Dirigir  y  controlar  la  implementación,  operación  y  mantenimiento  de  lo  anteriormente 
+mencionado.  
+Además,  se  definen  los  siguientes  Alcances  (AL)  para  el  título  en  la  Carrera  de  Ingeniería  en 
+Sistemas de Información:  
+AL1: Definir políticas vinculadas a sistemas de información, sistemas de comunicación de datos y 
+de software. 
+AL2: Identificar, modelar, mejorar e implementar procesos de negocios.  
+AL3: Participar en la toma de decisiones estratégicas de una organización. 
+AL4:  Diseñar,  desarrollar  e  implementar  programas  y  actividades  de  innovación  en  procesos  y 
+productos  relacionados  con  los  sistemas  de  información,  sistemas  de  comunicación  de  datos  y 
+software. 
+AL5: Evaluar, seleccionar y gestionar la infraestructura tecnológica para utilizar en los sistemas de 
+información, sistemas de comunicación de datos y de software. 
+AL6: Seleccionar y gestionar el personal requerido para áreas, proyectos y emprendimientos de 
+sistemas de información, sistemas de comunicación de datos y de software. 
+AL7: Especificar, proyectar, desarrollar, implementar y evaluar modelos de simulación, sistemas 
+con inteligencia artificial y ciencia de datos. 
+AL8:  Elaborar  y  gestionar  programas  de  capacitación  para  la  utilización  de  sistemas  de 
+información, sistemas de comunicación de datos y de software. 
+AL9:  Evaluar  y  seleccionar  sistemas  de  programación  para  utilizar  en  sistemas  de  información, 
+sistemas de comunicación de datos y de software. 
+AL10: Realizar peritajes informáticos forenses sobre sistemas de información y de software.  
+AL11: Realizar tasaciones sobre sistemas de información y de software.  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+15 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+5.- COMPETENCIAS DE EGRESO 
+La  UTN  adopta  para  sus  carreras  de  Ingeniería  las  Competencias  Genéricas  y  Específicas  de 
+Egreso formuladas por el CONFEDI de Argentina e incorporadas a las Resoluciones Ministeriales 
+de Acreditación de carreras de Ingeniería. Quienes se gradúan en la UTN no sólo deben saber, 
+sino  también  saber  hacer;  puesto  que  el  saber  hacer  no  surge  de  la  mera  adquisición  de 
+conocimientos, sino que es el resultado de la puesta en funciones de una compleja estructura de 
+conocimientos, habilidades, destrezas, actitudes y valores, requiere ser reconocida expresamente 
+en  el  proceso  de  aprendizaje  para  que  la  propuesta  pedagógica  incluya  las  actividades  que 
+permitan su desarrollo. Por consiguiente, la UTN determina para sus carreras la asociación de los 
+descriptores  de  conocimiento con  las  competencias  que  permitirán  la  adecuada  formación 
+profesional. 
+El diseño así establecido, integrando las competencias al Plan de Estudios, ayuda a vigorizar el 
+saber hacer requerido a quienes egresan de UTN. La formación de grado se propone desarrollar 
+aquellas competencias que deberían poseer al egreso y en el nivel de desarrollo adecuado al inicio 
+de su trayecto profesional. En este sentido, y dado el avance permanente de los conocimientos y 
+las tecnologías, se forman profesionales de manera que continúen su formación a lo largo de toda 
+su vida. 
+5.1.- Competencias Genéricas.  
+Permiten cumplir con los ejes transversales de formación establecidos en la RM 1557/2021. En el 
+curso de los distintos bloques, y de manera transversal, de acuerdo con las decisiones de cada 
+Facultad Regional, se desarrollará la formación relacionada con los siguientes ejes: 
+−    Competencias Tecnológicas 
+CG1: Identificar, formular y resolver problemas de ingeniería.  
+CG2: Concebir, diseñar y desarrollar proyectos de ingeniería.  
+CG3: Gestionar, planificar, ejecutar y controlar proyectos de ingeniería.  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+16 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+CG4: Utilizar de manera efectiva las técnicas y herramientas de aplicación en la ingeniería. 
+CG5: Contribuir a la generación de desarrollos tecnológicos y/o innovaciones tecnológicas.  
+−  Competencias Sociales Políticas y Actitudinales 
+CG6: Desempeñarse de manera efectiva en equipos de trabajo.  
+CG7: Comunicarse con efectividad.  
+CG8: Actuar con ética, responsabilidad profesional y compromiso social, considerando el impacto 
+económico, social y ambiental de su actividad en el contexto local y global.  
+CG9: Aprender en forma continua y autónoma.  
+CG10: Actuar con espíritu emprendedor. 
+5.2.- Competencias Específicas 
+Las competencias específicas que se detallan a continuación son las requeridas para acceder al 
+título de Ingeniero e Ingeniera en Sistemas de Información de la UTN y dan cumplimiento a los 
+descriptores de conocimiento establecidos en la Res. ME 1557/21, Anexo I para cada uno de los 
+bloques de conocimiento.  Dichos descriptores son:  
+● Especificación, proyecto y desarrollo de sistemas de información. 
+● Especificación, proyecto y desarrollo de sistemas de comunicación de datos. 
+● Especificación, proyecto y desarrollo de software. 
+● Proyecto y dirección en lo referido a seguridad informática. 
+● Establecimiento de métricas y normas de calidad de software. 
+● Procedimientos  y  certificaciones  del  funcionamiento,  condición  de  uso  o  estado  de 
+sistemas  de  información,  sistemas  de comunicación  de  datos,  software,  seguridad 
+informática y calidad de software. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+17 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+● Dirección  y  control  de  la  implementación,  operación  y  mantenimiento  de  sistemas  de 
+información, sistemas de comunicación de datos, software, seguridad informática y calidad 
+de software. 
+Las competencias específicas de la Especialidad son: 
+CE1.1:  Especificar,  proyectar  y  desarrollar  sistemas  de  información  para  concebir soluciones 
+tecnológicas  que  permitan  resolver  situaciones  en  las  organizaciones mediante  el  empleo  de 
+metodologías de sistemas y tecnologías asociadas a los sistemas de información. 
+CE1.2:  Especificar,  proyectar  y  desarrollar  sistemas  de  comunicación  de  datos, evaluando 
+posibles soluciones tecnológicas disponibles para dar soporte a los sistemas de información en lo 
+referido al procesamiento y comunicación de datos. 
+CE1.3: Especificar, proyectar y desarrollar software para la elaboración de soluciones informáticas 
+con  el  propósito  de  resolver  problemas  estratégicos  y operativos,  así  como  de  servicios  y  de 
+negocios, en el marco de una actividad económica que sea social y ambientalmente sustentable.  
+CE2.1: Proyectar y dirigir lo referido a seguridad informática para seleccionar y aplicar técnicas, 
+herramientas,  métodos  y  normas,  garantizando  la  seguridad  y privacidad  de  la  información 
+procesada y generada por los sistemas de información. 
+CE3.1:  Establecer  métricas  y  normas  de  calidad  de  software  para  medir,  evaluar, controlar  y 
+monitorear el rendimiento, impulsando mejoras de acuerdo a técnicas y normas vigentes definidas 
+por los organismos de estandarización. 
+CE4.1:  Certificar  el  funcionamiento,  condición  de  uso  o  estado  de  sistemas  de información, 
+sistemas de comunicación de datos, software, seguridad informática y calidad de software para 
+asegurar  la  generación de  los  resultados  deseados  en función  de  restricciones  de  tiempo  y 
+recursos establecidos. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+18 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+CE5.1:  Dirigir  y  controlar  la  implementación,  operación  y  mantenimiento  de sistemas  de 
+información,  sistemas  de  comunicación  de  datos,  software,  seguridad informática  y  calidad  de 
+software, a los fines de alcanzar los objetivos fijados por la organización. 
+CE6.1: Asesorar y capacitar a organizaciones, empresas, organismos públicos o privados en la 
+adquisición,  instalación  y  uso,  en  lo  que  respecta  a  sistemas  de información,  sistemas  de 
+comunicación de datos, software, seguridad informática y calidad de software, a los fines de un 
+uso correcto de los sistemas intervinientes. 
+CE7.1:  Realizar  pericias,  tasaciones  y  arbitrajes  relacionados  con  su  actividad profesional, 
+respetando marcos normativos y jurídicos con el objeto de asesorar a las partes o a los tribunales 
+de Justicia. 
+La siguiente tabla relaciona las competencias específicas descriptas con los Alcances del título.  
+Alcances Competencias Específicas 
+AR1 CE1.1, CE1.2, CE1.3 
+AR2 CE2.1 
+AR3 CE3.1 
+AR4 CE4.1 
+AR5 CE5.1 
+AL1 CE1.1, CE1.2, CE1.3, CE2.1 
+AL2 CE1.1, CE5.1 
+AL3 CE1.1, CE1.2, CE1.3, CE2.1, CE3.1 
+AL4 CE1.1, CE1.2, CE1.3 
+AL5 CE1.2, CE5.1, CE6.1 
+AL6 CE5.1, CE6.1 
+AL7 CE1.1, CE1.2, CE1.3, CE5.1 
+AL8 CE6.1 
+AL9 CE1.3 
+AL10 CE2.1, CE4.1, CE7.1 
+AL11 CE7.1 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+19 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+6.- ORGANIZACIÓN DE LA CARRERA  
+6.1 Duración de la Carrera y modalidad de cursada. 
+Duración de la carrera en años: 5 (cinco) 
+Duración de la carrera en horas reloj: 3992 
+Modalidad: presencial 
+ 
+6.2.- Organización por áreas, bloques y asignaturas  
+6.2.1.- Áreas:  
+Esta forma de organización agrupa áreas de conocimiento amplias, menos específicas, cortando 
+la sectorización y favoreciendo la interdisciplina. Agrupa en función de los grandes problemas que 
+se abordan en una ciencia o profesión y en función del proceder científico y profesional. Permite 
+reordenar las cátedras en campos epistemológicos o campos del saber. 
+ 
+Área de conocimiento Asignaturas H Reloj del Área 
+Matemática 
+ 
+ 
+Análisis Matemático I  
+Análisis Matemático II 
+Algebra y Geometría Analítica 
+Probabilidad y Estadística 
+432 h 
+Física 
+ 
+Física I 
+Física II 
+240 h 
+Ciencias Sociales 
+ 
+Ingeniería y Sociedad 
+Legislación 
+Economía 
+168 h 
+Idiomas 
+ 
+Inglés I 
+Inglés II 
+96 h 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+20 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Área de conocimiento Asignaturas H Reloj del Área 
+Desarrollo de Software 
+Lógica y Estructuras Discretas  
+Algoritmos y Estructuras de Datos  
+Sintaxis y Semántica de los 
+Lenguajes  
+Paradigmas de Programación  
+Bases de Datos  
+Desarrollo de Software  
+Ingeniería y Calidad de Software  
+648 h 
+Computación y 
+Comunicación de Datos 
+Arquitectura de Computadoras  
+Sistemas Operativos  
+Comunicación de Datos  
+Redes de Datos  
+384 h 
+Gestión Ingenieril 
+Sistemas de Gestión  
+Gestión Gerencial  
+Seguridad en los Sistemas de 
+Información  
+240 h 
+Sistemas Inteligentes 
+Análisis Numérico  
+Investigación Operativa  
+Simulación  
+Tecnologías para la automatización  
+Inteligencia Artificial  
+Ciencia de Datos  
+456 h 
+Sistemas de 
+Información 
+Sistemas y Procesos de Negocio   
+Análisis de Sistemas de Información   
+Diseño de Sistemas de Información   
+Administración de Sistemas de 
+Información   
+Proyecto Final   
+648 h 
+ 
+El espacio interdisciplinario e integrador de la carrera Ingeniería en Sistemas de Información está 
+constituido por un conjunto de materias cuya finalidad es la de crear a lo largo de la carrera un 
+espacio de estudio interdisciplinario y fortalecer los conceptos fundamentales de la profesión, que 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+21 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+permitan a las y los estudiantes conocer las características del trabajo ingenieril, partiendo desde 
+los problemas básicos de los Sistemas de Información. Este espacio se constituye a través de un 
+conjunto de asignaturas que constituyen el Área de conocimiento Sistemas de Información. 
+6.2.2.- Conformación de bloques 
+El Plan de Estudios cumple con el estándar respecto de la conformación de Bloques curriculares 
+en Ciencias Básicas de la Ingeniería, Tecnologías Básicas, Tecnologías Aplicadas y Ciencias  y 
+Tecnologías Complementarias según se detalla a continuación: 
+ Ciencias  Básicas  de  la  Ingeniería:  Incluye  los  contenidos  curriculares  y  los  fundamentos 
+necesarios para el desarrollo de las competencias lógico-matemáticas y científicas para las 
+carreras de ingeniería, en función de los avances científicos y tecnológicos, a fin de asegurar 
+una formación conceptual para el sustento de las disciplinas específicas. 
+ Tecnologías Básicas: Incluye los contenidos curriculares basados en las ciencias exactas y 
+naturales  y  los fundamentos  necesarios  para  el desarrollo  de  las  competencias  científico-
+tecnológicas  que  permiten  la  modelación  de  los  fenómenos  relevantes  a  la  Ingeniería en 
+formas aptas para su manejo y eventual utilización en sistemas o procesos. Sus principios 
+fundamentales son aplicados luego en la resolución de problemas de ingeniería. 
+ Tecnologías Aplicadas: Incluye los contenidos curriculares para la aplicación de las Ciencias 
+Básicas  de  la  Ingeniería  y  las  Tecnologías  Básicas  y  los  fundamentos  necesarios  para  el 
+diseño,  cálculo  y  proyecto  de  sistemas,  componentes,  procesos  o  productos,  para  la 
+resolución de problemas y para el desarrollo de las competencias propias de la terminal. 
+ Ciencias   y   Tecnologías   Complementarias:   Incluye   los   contenidos   curriculares   y   los 
+fundamentos necesarios para poner la práctica de la Ingeniería en el contexto profesional, 
+social,  histórico,  ambiental  y  económico  en  que  ésta  se  desenvuelve, asegurando  el 
+desarrollo  de  las  competencias  sociales,  políticas  y  actitudinales  del  ingeniero  para  el 
+desarrollo sostenible 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+22 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+La  organización  en  bloques  de  las  asignaturas  que  conforman  la  carrera  de  Ingeniería en 
+Sistemas de Información se resume en la tabla siguiente:   
+ 
+Bloque de 
+Conocimiento  
+Descriptores Asignaturas 
+Hs. Reloj 
+anuales 
+Ciencias  
+Básicas de la 
+Ingeniería  
+Análisis Numérico, 
+Cálculo diferencial e integral, 
+Álgebra lineal,  
+Matemática Discreta,  
+Probabilidad y estadística 
+Electricidad, 
+Electromagnetismo, 
+Magnetismo y Mecánica. 
+Análisis Matemático I  
+120 
+Álgebra y Geometría 
+Analítica  120 
+Física I  
+120 
+Lógica y Estructuras 
+Discretas  72 
+Análisis Matemático II  
+120 
+Física II  
+120 
+Probabilidad y Estadística  
+72 
+Análisis Numérico  
+72 
+Total horas del bloque 816 
+Tecnologías 
+Básicas  
+Algoritmos y Estructuras de 
+Datos, Lenguajes de 
+Programación, Organización y 
+Arquitectura de 
+Computadoras,  
+Autómatas y Gramáticas,  
+Teoría de la Información y la 
+Comunicación, 
+ Teoría de Sistemas y 
+Modelos. 
+ 
+Algoritmos y Estructuras 
+de Datos  120 
+Arquitectura de 
+Computadoras  96 
+Sintaxis y Semántica de 
+los Lenguajes  96 
+Paradigmas de 
+Programación  96 
+Comunicación de Datos  
+96 
+Investigación Operativa  96 
+Simulación  72 
+Total horas del bloque 672 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+23 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Bloque de 
+Conocimiento  
+Descriptores Asignaturas 
+Hs.Reloj 
+anuales 
+Tecnologías 
+Aplicadas  
+Auditoría, 
+Bases de Datos, 
+Calidad de software 
+Ingeniería de Software, 
+Redes de Computadoras 
+Seguridad Informática, 
+Sistemas de Información, 
+Sistemas Operativos. 
+ 
+Sistemas Operativos  
+96 
+Análisis de Sistemas de  
+Información  
+(integradora)  
+144 
+Bases de Datos  
+96 
+Desarrollo de Software  
+96 
+Diseño de Sistemas de  
+Información  
+(integradora)  144 
+Ingeniería y Calidad de 
+Software  
+72 
+Redes de Datos  96 
+Tecnologías para la 
+automatización  
+72 
+Administración de  
+Sistemas de  
+Información  
+(integradora)  
+144 
+Inteligencia Artificial  72 
+Ciencia de Datos  72 
+Sistemas de Gestión  96 
+Seguridad en los  
+Sistemas de  
+Información  
+72 
+Proyecto Final 
+(integradora)  
+144 
+Total horas del bloque 1416 
+  
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+24 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+    
+Bloque de 
+Conocimiento  
+Descriptores Asignaturas 
+Hs.Reloj 
+anuales 
+Ciencias y  
+Tecnologías  
+Complementarias  
+Fundamentos para la 
+comprensión de una lengua 
+extranjera, 
+Organización Empresarial, 
+Conceptos de Ética y 
+Legislación, Formulación y 
+evaluación de proyectos TIC, 
+Organización Empresarial. 
+ 
+Inglés I  
+48 
+Sistemas y Procesos de 
+Negocio  72 
+Ingeniería y Sociedad  
+48 
+Inglés II  
+48 
+Economía  
+72 
+Legislación  
+48 
+Gestión Gerencial  
+72 
+Total horas del bloque 408 
+ 
+ 
+6.3.- Formación Práctica 
+En  el  proceso  de  desarrollo  de  competencias  deben  generarse  instancias  que  posibiliten  la 
+intervención  de  la  y  el  estudiante  en  la  problemática  específica  de  la  realidad,  contempla 
+necesariamente,  ámbitos  o  modalidades  curriculares  de  articulación  teórico-práctica  con  la 
+finalidad  de  recuperar  el  aporte  de  las  diversas  disciplinas.  El  diseño  de  cada  actividad  de 
+aprendizaje  debe  tender  a  un  trabajo  de  análisis  y  reelaboración  conceptual  que  permita  su 
+transferencia  al  campo  profesional.  Este  criterio  responde  al  supuesto  de  que  el  aprendizaje 
+constituye  un  proceso  de  reestructuraciones  continuas,  que  posibilita  de  manera  progresiva 
+alcanzar  niveles  cada vez  más  complejos  de  comprensión  e  interpretación  de  la  realidad.  La 
+formación  práctica  se  orienta  a  desarrollar  en  el  ingeniero  y  la  ingeniera,  gradualmente,  las 
+competencias  necesarias  para  el  cumplimiento  de  las  Actividades  Reservadas  en  el  contexto 
+descripto del ejercicio profesional. 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+25 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Esta formación práctica puede realizarse en diferentes espacios físicos (aula, laboratorio, campo 
+u otros), propios o no, y con diferentes medios (instrumental físico, virtual, remoto o simulación). 
+Las  cuestiones  relativas  a  la  seguridad,  el  impacto  social  y  la  preservación  del medio  ambiente 
+constituyen  aspectos  fundamentales  que  la  práctica  de  la  ingeniería  debe  observar.  En  ese 
+sentido, es importante considerar desde el inicio de la carrera los aportes que las distintas áreas 
+curriculares realizan a la formación integral, relacionando los aspectos teóricos con los prácticos, 
+ya sea que estén vinculados o no con la práctica profesional. 
+Concretamente  la  carrera  cumple  con  el  requisito  de  carga  horaria  de  formación  práctica, 
+incluyendo un Proyecto Integrador e instancias de Práctica Profesional Supervisada y distribuidas 
+en la carga horaria especificada en los diferentes Bloques Curriculares.  
+ 
+6.3.1.- Criterios de intensidad dentro la formación práctica:  
+Formación experimental (mínimo 288 hs) 
+Se establecen criterios para la intensidad de la formación práctica que garanticen una adecuada 
+actividad  experimental  vinculada  con  el  estudio  de  las  ciencias  básicas,  así  como  tecnologías 
+básicas y aplicadas (que incluye tanto actividades experimentales, considerando la carga horaria 
+mínima,   como   la   disponibilidad   de   infraestructura   y   equipamiento).   Se   incluyen,   en   los 
+correspondientes  espacios  curriculares,  el  trabajo  en  laboratorio  y/o  campo,  con  la  finalidad  de 
+que logren desarrollar habilidades prácticas en la operación de equipos, diseño de experimentos, 
+toma de muestras y análisis de resultados. 
+Análisis y Resolución de problemas de ingeniería y estudio de casos (mínimo 1186 hs) 
+Se entiende, como análisis y resolución de problemas de ingeniería, a aquellas situaciones reales 
+o hipotéticas cuya solución requiere la aplicación de los conocimientos, de las ciencias básicas y 
+de las tecnologías, y que favorezcan el desarrollo de capacidades necesarias para la identificación 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+26 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+de variables, diseño y solución de problemas de ingeniería. Estas habilidades serán desarrolladas 
+especialmente en los bloques curriculares de las tecnologías básicas y las tecnologías aplicadas.  
+Formulación, análisis y desarrollo de proyectos (mínimo 288 hs) 
+Se entiende por tales, a las actividades que empleando ciencias básicas y de la ingeniería llevan 
+al desarrollo de un sistema, componente o proceso, satisfaciendo una determinada necesidad y 
+optimizando el uso de los recursos disponibles. Como parte de esta formación, se incluyen a partir 
+del  bloque  curricular  de  tecnologías  aplicadas  una  experiencia  significativa  en  actividades 
+integradas de proyecto y diseño de ingeniería.  
+Práctica supervisada en los sectores productivos y/o de servicios (200 hs) 
+La misión de este tipo de prácticas es lograr aprendizajes profesionales en un contexto laboral que 
+completa  su  formación;  esta  inmersión  profesional  tiene  indudables  ventajas  para  quienes  la 
+realizan,  ya  que  puede  aprender  en  sectores  productivos  y/o  de  servicios,  o  bien  en  proyectos 
+desarrollados por la institución para estos sectores, o en cooperación con ellos, asociados con la 
+carrera que cursa. Estas actividades de formación contribuyen al desarrollo y fortalecimiento de 
+las  competencias  necesarias  para  el  cumplimiento  de  las  Actividades  Reservadas,  a  través  de 
+actividades prácticas realizadas fuera de los espacios académicos, en el campo laboral, o bien en 
+el  marco  de  actividades  universitarias  extracurriculares,  o  solidarias,  o  de  actuación  ciudadana, 
+entre otras. 
+Finalmente,  tanto  la  Práctica  Supervisada  como  el  Proyecto  Final  son  espacios  de  formación 
+práctica, que constituyen una oportunidad de aplicación de las competencias a efectos de resolver 
+problemas de ingeniería. 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                       
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+27 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+6.4.- Matriz de Competencias Específicas  
+ 
+La matriz de tributación permite visualizar en qué asignaturas, como mínimo, deben desarrollarse 
+las competencias específicas de egreso. Es indicativa y deberá ser complementada a través de la 
+matriz  de  tributación  desarrollada  por  cada  FR  que  dicte  la  carrera  y  de  las  planificaciones  de 
+cátedra  (que  deben  aprobar  los  Consejos  Departamentales)  indicando  el  nivel  de  desarrollo  de 
+cada competencia en cada asignatura. 
+Las asignaturas homogéneas, pertenecientes al Bloque de las Ciencias Básicas de la Ingeniería, 
+aportan  a  las  Competencias  Genéricas,  sociales  políticas  y  actitudinales  y  especialmente  a  las 
+Tecnológicas. Este aporte se realiza mediante modelos que gradualmente promueven el desarrollo 
+de las Competencias Específicas necesarias para proyectar, diseñar y calcular. 
+Las    asignaturas    homogéneas    pertenecientes    al    Bloque    de    Ciencias    y    Tecnologías 
+Complementarias,  aportan  especialmente  a  las  Competencias  Genéricas  sociales  políticas  y 
+actitudinales. 
+.  
+
+ “Las Malvinas son argentinas”     
+    
+                          
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+MATRIZ DE TRIBUTACIÓN – INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+  
+Asignaturas 
+COMPETENCIAS ESPECÍFICAS 
+CE 1.1 CE 1.2 CE 1.3 CE 2.1 CE 3.1 CE 4.1 CE 5.1 CE 6.1 CE 7.1 
+5 Lógica y Estructuras Discretas     X           
+6 Algoritmos y Estructuras de Datos     X           
+7 Arquitectura de Computadoras   X             
+8 Sistemas y Procesos de Negocio  X               
+13 Sintaxis y Semántica de los Lenguajes     X           
+14 Paradigmas de Programación     X           
+15 Sistemas Operativos   X   X         
+16 
+Análisis de Sistemas de Información 
+(integradora) 
+X    X   X   
+  
+ 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                         
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+29 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+ 
+MATRIZ DE TRIBUTACIÓN – INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+  
+Asignaturas 
+COMPETENCIAS ESPECÍFICAS 
+CE 1.1 CE 1.2 CE 1.3 CE 2.1 CE 3.1 CE 4.1 CE 5.1 CE 6.1 CE 7.1 
+19 Bases de Datos X   X X     X   
+20 Desarrollo de Software     X X   X X   
+21 Comunicación de Datos   X   X   X X   
+22 Análisis Numérico    X            
+23 
+Diseño de Sistemas de Información 
+(integradora) 
+X   X  X X X 
+  
+24 Legislación        
+  
+X 
+25 Ingeniería y Calidad de Software X   X   X X X   
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                         
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+30 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+MATRIZ DE TRIBUTACIÓN – INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+  
+Asignaturas 
+COMPETENCIAS ESPECÍFICAS 
+CE 1.1 CE 1.2 CE 1.3 CE 2.1 CE 3.1 CE 4.1 CE 5.1 CE 6.1 CE 7.1 
+26 Redes de Datos   X   X   X X   
+27 Investigación Operativa X               
+28 Simulación     X     X     
+29 Tecnologías para la automatización     X X   X X   
+30 
+Administración de Sistemas de 
+Información (integradora) 
+X         X X X 
+ 
+31 Inteligencia Artificial  X   X     X X   
+32 Ciencia de Datos X        X X   
+33 Sistemas de Gestión X       X X X X  
+ 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+ 
+                         
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+31 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+ 
+MATRIZ DE TRIBUTACIÓN – INGENIERÍA EN SISTEMAS DE INFORMACIÓN 
+  
+ASIGNATURAS 
+COMPETENCIAS ESPECÍFICAS 
+CE 1.1 CE 1.2 CE 1.3 CE 2.1 CE 3.1 CE 4.1 CE 5.1 CE 6.1 CE 7.1 
+34 Gestión Gerencial X           X X  
+35 Seguridad en los Sistemas de Información X    X X X X  X 
+36 Proyecto Final (integradora) X X X X X X X   
+
+ “Las Malvinas son argentinas”     
+    
+                          
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+6.5.- Metodología Pedagógica y Evaluación 
+El enfoque didáctico se sustenta en una concepción de aprendizaje constructivista y sociocultural. 
+El aprendizaje se concibe como un proceso individual y social a la vez, es de carácter situado y 
+se produce en el marco de procesos de interacción mediados en contextos específicos. La visión 
+situada  del  aprendizaje  da  cuenta  de  que  lejos  de  ser  un  proceso  individual,  se  produce  en  el 
+marco  de  la  participación  de  los  sujetos  en  actividades  diversas.  Es  diverso,  heterogéneo  y 
+distribuido,  gradual  y  progresivo.  Involucra  la  afectividad,  el  pensamiento  y  la  acción  de  modo 
+inseparable.  
+Desde esta concepción, las posibilidades de aprendizaje no sólo dependen de las capacidades 
+individuales, sino del tipo de vínculos que se generan en las situaciones en las que participan los 
+sujetos  y  de  las  estrategias  y  recursos  utilizados  en  la  enseñanza.  El  contexto  educativo,  la 
+propuesta curricular y las prácticas de enseñanza y evaluación tienen una influencia clave en las 
+posibilidades de generar aprendizajes significativos y con sentido para las y los estudiantes.  
+El concepto de aprendizaje situado permite un cambio de perspectiva que enfatiza su dimensión 
+social e interaccional, que se fundamenta en la participación y la colaboración. 
+Se  produce  en  escenarios  donde  las  personas  acuerdan  un  objetivo  común  para  realizar  una 
+actividad  que  todos  experimentan  y  reconocen  como  significativa.  A  través  del  propio  aporte  al 
+trabajo  del  grupo,  se  produce  un  proceso  de  construcción  de  conocimientos  y  se  posibilita  el 
+acceso  a  conocimientos  y  prácticas,  saberes  profesionales,  formas  de  resolver  problemas 
+sustentadas en teoría y experiencias.  
+Orientaciones didácticas  
+En el enfoque didáctico que se propone para la formación en Ingeniería es importante considerar 
+las  formas  de  seleccionar  y  organizar  los  distintos  saberes  a  enseñar  y  las  estrategias  de 
+enseñanza y de evaluación a privilegiar.  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+33 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Los contenidos mínimos -el qué enseñar- están definidos en el plan de estudio, para cada uno de 
+los  espacios  curriculares.  Incluyen  el  conjunto  de  conocimientos  y  saberes  que  se  consideran 
+valiosos y necesarios para la formación profesional a lo largo de la carrera, teniendo en cuenta 
+también sus alcances y las competencias de egreso.  
+La  forma  de  organizar  los contenidos  en  las  distintas  actividades  curriculares  debe  contribuir  a 
+secuenciar, integrar y articular los distintos saberes a enseñar. De este modo, podrán pensarse 
+tanto actividades curriculares organizadas en torno a disciplinas como en función de actividades y 
+problemas profesionales.  
+En  cuanto  a  las  metodologías  de  enseñanza,  y  considerando  las  competencias que  tienen que 
+lograr  los  y  las  estudiantes,  se  abordarán  diversas  estrategias  que  sean  coherentes  con  las 
+mismas y contribuyan a su desarrollo.  
+Las   clases   expositivas   constituyen   una   estrategia   muy   utilizada.   En   ellas   se   transmiten 
+conocimientos valiosos para la formación y se da coherencia a los mismos, asegurando a través 
+de la explicación, el diálogo y otras actividades de enseñanza, la comprensión de los mismos, así 
+como  su  jerarquización  y  organización.  Sin  embargo,  no  son  suficientes  para  el  desarrollo  de 
+competencias, que implican tramas complejas de conceptos y teorías, habilidades y actitudes.  
+En  función  de  la  concepción  de  aprendizaje señalada,  es  importante  incluir  estrategias  que 
+favorezcan la participación activa de los estudiantes en el aula, desde actividades colaborativas 
+que  favorezcan  la  comprensión  y  el  logro  de  aprendizajes  significativos  y  con  sentido.  La 
+resolución  de  problemas,  el  aprendizaje  basado  en  problemas,  las  actividades  de  diseño  y 
+proyecto, el aprendizaje invertido, el estudio de casos, los debates, la simulación, entre otras, son 
+ejemplos de estrategias que favorecen abordajes colaborativos en torno a temas disciplinares y 
+problemas interdisciplinares y multidimensionales, cercanos a la realidad y al contexto profesional. 
+Permiten la articulación de la teoría y la práctica, de conocimientos y experiencias.  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+34 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Estas  estrategias,  si  bien  pueden  ser  planteadas  en  las  distintas  asignaturas,  es  importante 
+abordarlas en espacios de carácter interdisciplinar, que focalicen en el desarrollo de problemas 
+integradores para el desarrollo de competencias tanto genéricas como específicas.  
+En  este  marco,  se  adhiere  a  los  enfoques de  competencias  que  señalan  su  dimensión 
+constructivista (las competencias se construyen en interacción con otros sujetos y en contextos 
+determinados),  holística  e  integrada  (los  conocimientos,  habilidades,  actitudes,  no  se  pueden 
+fragmentar  o  simplificar).  En  las  mismas  son  claves  el  pensamiento  complejo  (metacognición, 
+reflexión, dialogo) y el desempeño (actuación en contexto, mediante la realización de actividades 
+o  resolución  de  problemas),  con  aplicación  guiada  por  un  proceso  metacognitivo,  idoneidad  y 
+flexibilidad   (considerar   variables   situacionales   en   cada   contexto),   compromiso   ético   y 
+responsabilidad social.  
+Enfoques de esta índole permiten comprender que cuando se habla de formación centrada en el 
+y la estudiante, se hace referencia a que se da especial importancia a las formas de aprender y a 
+la participación de alumnos y alumnas. A la vez, el rol docente también cobra centralidad, ya que 
+el proceso de enseñanza implica diseñar diversidad de actividades y favorecer distintos procesos 
+interactivos que contribuyan a generar condiciones para mejores aprendizajes. 
+Evaluación  
+En relación con la evaluación, es fundamental su articulación con la modalidad de enseñanza.  
+Es importante considerar la evaluación no solamente en función de acreditación de asignaturas 
+sino  fundamentalmente  en  su  aspecto  formativo.  Los  instrumentos  utilizados  deben  dar  cuenta 
+tanto de las competencias evaluadas en ellos, como sus alcances. Asimismo, tienen que poner en 
+juego la diversidad de actividades de enseñanza que se proponen a lo largo de la cursada.  
+En este contexto se hace necesaria la enunciación de las formas e instrumentos de evaluación a 
+utilizar  para  poder  establecer  la  coherencia  con  las  competencias  indicadas  en  los  contenidos 
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+35 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+mínimos de la asignatura y las actividades desarrolladas en la propuesta de enseñanza. Todo ello 
+será  plasmado  en  las  planificaciones  de  cátedra,  las  cuales  deberán  respetar  las  orientaciones 
+que para su redacción apruebe el Consejo Superior.  
+En  este  contexto,  los  y  las  docentes  de  carreras de  Ingeniería  se  enfrentan  al  reto  de  plantear 
+estrategias   de   enseñanza   que   promuevan   el   desarrollo   de   las   competencias   de   egreso 
+establecidas en el ítem 5. 
+Históricamente, la Universidad se ha dedicado a la enseñanza y evaluación de conocimientos. Sin 
+embargo,  las  competencias  hacen  referencia  a  la  capacidad  que  tienen  quienes  estudian  para 
+abordar con cierto éxito situaciones problemáticas en un contexto académico o profesional dado. 
+Teniendo en cuenta que estas competencias se desarrollan o afianzan por medio de la ejercitación, 
+para contribuir al proceso de formación de las mismas, es necesario que quien ejerza la docencia 
+seleccione  las  técnicas con  especial  énfasis  en la  resolución  de  problemas,  estudios  de  casos, 
+trabajo cooperativo, etc. tareas en las que para su ejecución exigen que el y la estudiante pongan 
+en juego capacidades y competencias.  
+Si  se  trata  de  asignaturas  que  se  abordan  bajo  la  opción  pedagógica  a  distancia,  parcial  o 
+totalmente,  la  evaluación  deberá  ser  consistente  y  coherente  con  el  modo  de  enseñanza 
+implementado. 
+Asignaturas no presenciales  
+Las carreras, en función de la política que fije cada Facultad Regional, podrán ofrecer asignaturas 
+dictadas bajo la opción pedagógica a distancia parcial o totalmente, o bajo la opción de Aprendizaje 
+internacional colaborativo en línea (COIL), clases espejo, clases magistrales en formato webinar, 
+siempre que dicha oferta no supere el porcentaje establecido por las normativas vigentes respecto 
+a la carga horaria total de la carrera indicado para las carreras presenciales.  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+36 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Las  asignaturas  dictadas  total  o  parcialmente  bajo  la  opción  pedagógica  a  distancia  serán 
+aprobadas por los Consejos Departamentales y deberán contemplar las previsiones mínimas para 
+dicha opción en base a la normativa vigente en la universidad. 
+ 
+7.- PLAN DE ESTUDIO 
+Nº ASIGNATURAS 
+Carga horaria 
+semanal (dictado 
+anual)- h catedra 
+Carga horaria 
+total anual en 
+h reloj 
+RTF 
+PRIMER NIVEL  
+1 Análisis Matemático I 5 120 10 
+2 Álgebra y Geometría Analítica 5 120 10 
+3 Física I 5 120 10 
+4 Inglés I 2 48 3 
+5 Lógica y Estructuras Discretas 3 72 6 
+6 
+Algoritmos y Estructuras de 
+Datos 
+5 120 10 
+7 Arquitectura de Computadoras 4 96 6 
+8 Sistemas y Procesos de Negocio 3 72 5 
+Total  32 768 60 
+SEGUNDO NIVEL  
+9 Análisis Matemático II 5 120 10 
+10 Física II 5 120 10 
+11 Ingeniería y Sociedad 2 48 3 
+12 Inglés II 2 48 3 
+13 
+Sintaxis y Semántica de los 
+Lenguajes 
+4 96 8 
+14 Paradigmas de Programación 4 96 8 
+15 Sistemas Operativos 4 96 8 
+16 
+Análisis de Sistemas de 
+Información (integradora) 
+6 144 10 
+Total  32 768 60 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+37 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+. 
+Nº ASIGNATURAS 
+Carga horaria 
+semanal (dictado 
+anual)- h catedra 
+Carga horaria 
+total anual en 
+h reloj 
+RTF 
+TERCER NIVEL  
+17 Probabilidad y Estadística 3 72 6 
+18 Economía 3 72 6 
+19 Bases de Datos 4 96 8 
+20 Desarrollo de Software 4 96 8 
+21 Comunicación de Datos 4 96 8 
+22 Análisis Numérico 3 72 6 
+23 
+Diseño de Sistemas de 
+Información (integradora) 
+6 144 10 
+ 
+Electivas 3º nivel 4 96 8 
+Total  31 744 60 
+CUARTO NIVEL  
+24 Legislación 2 48 3 
+25 Ingeniería y Calidad de Software 3 72 6 
+26 Redes de Datos 4 96 8 
+27 Investigación Operativa 4 96 6 
+28 Simulación 3 72 5 
+29 
+Tecnologías para la 
+automatización 
+3 72 6 
+30 
+Administración de Sistemas de 
+Información (integradora) 
+6 144 10 
+ 
+Electivas 4º nivel 6 144 8 
+Total  31 744 60 
+ 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+38 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Nº ASIGNATURAS 
+Carga horaria 
+semanal (dictado 
+anual)- h catedra 
+Carga horaria 
+total anual en 
+h reloj 
+RTF 
+QUINTO NIVEL  
+31 Inteligencia Artificial 3 72 6 
+32 Ciencia de Datos 3 72 6 
+33 Sistemas de Gestión 4 96 8 
+34 Gestión Gerencial 3 72 6 
+35 
+Seguridad en los Sistemas de 
+Información  
+3 72 6 
+36 Proyecto Final (integradora) 6 144 15 
+ Electivas 5º nivel 10 240 13 
+Total 32 768 60 
+Práctica Profesional Supervisada * 200  
+Duración de la carrera en h 3992  
+ 
+ 
+* La reglamentación instrumental para el desarrollo de la Práctica Profesional Supervisada deberá 
+ser aprobada por el Consejo Directivo de cada Facultad Regional, en el marco dispuesto por la 
+normativa específica aprobada por el CS 
+Las Facultades Regionales tienen las atribuciones para modificar el nivel de implementación de 
+cada asignatura del Plan, como así también su desarrollo en forma anual o cuatrimestral; siempre 
+que se respete el régimen de correlatividades. 
+ 
+8.- PROGRAMAS SINTÉTICOS  
+En   los   programas   sintéticos   se   incluirán   únicamente   las   competencias   específicas.   Las 
+planificaciones  de  cátedra  deberán  incluir  los  Resultados  de  Aprendizaje  y  las  competencias 
+genéricas y específicas a desarrollar, además de los aspectos que se definan en la normativa que 
+apruebe el CS sobre pautas mínimas comunes para su redacción. 
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+39 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 1 
+Asignatura: 
+ANÁLISIS MATEMÁTICO I 
+Horas cátedra  
+semanales: 
+5 
+Departamento: Materias Básicas Horas reloj total: 120 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 1 
+Área: Matemática RTF 10 
+Objetivos 
+- Resolver   situaciones   problemáticas   y   de   aplicación   a   la   ingeniería   utilizando 
+herramientas del cálculo diferencial e Integral de una variable. 
+- Resolver  problemas  de Razón  de  Cambio  y  Optimización  en  diferentes  contextos, 
+mediante la aplicación de conceptos, teoremas y propiedades del Cálculo Diferencial y 
+la interpretación de los resultados obtenidos en el contexto de la situación.   
+- Argumentar  en  lenguaje  coloquial  y/o  simbólico  para  explicar,  justificar  y/o  verificar 
+procedimientos  empleados  en  la  relación  del  cálculo  integral  con  el  cálculo  de 
+primitivas, con el proceso de derivación en el contexto de una situación problemática.  
+- Utilizar software de aplicación para evidenciar el aprendizaje de conceptos, técnicas y 
+modelos matemáticos propios de las funciones, el límite y la continuidad de funciones 
+de variable real y sus aplicaciones. 
+- Utilizar  recursos  bibliográficos  y  multimediales  del  Cálculo  diferencial  e Integral  en  la 
+construcción de argumentos válidos y aceptables de las producciones escritas u orales. 
+ 
+Contenidos mínimos 
+ 
+- Funciones de una variable real.  
+- Límite de funciones reales.  
+- Funciones continuas.  
+- Funciones diferenciables.  
+- Aplicaciones de la derivada.  
+- Cálculo integral.  
+- La integral definida.  
+- Relaciones entre el Cálculo Diferencial e Integral. La primitiva.  
+- Aplicaciones de la integral definida. 
+- Series 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+40 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 2 
+Asignatura: 
+ÁLGEBRA Y GEOMETRÍA 
+ANALÍTICA 
+Horas cátedra  
+semanales: 
+5 
+Departamento: Materias Básicas Horas reloj total: 120 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 1 
+Área: Matemática RTF 10 
+Objetivos 
+ 
+- Desarrollar capacidad de abstracción, generalización y particularización, fortaleciendo 
+el  pensamiento  deductivo  e  inductivo  mediante  el  uso  y  aplicación  de  espacios 
+vectoriales y transformaciones lineales. 
+- Aplicar  modelos  lineales  (matrices,  determinantes,  sistemas  de  ecuaciones  lineales, 
+autovalores  y  autovectores)  a  la resolución  de  problemas,  analizándolas  mediante 
+argumentos  teóricos,  empleando  técnicas,  procesos  analíticos  y  representaciones 
+gráficas 
+- Resolver problemas de aplicación modelizados matemáticamente, utilizando vectores 
+y  matrices,  interpretando  los  resultados  obtenidos  en  el  contexto  de  la  situación, 
+identificando   sus   elementos,   usando   distintas   representaciones   semióticas   y 
+comunicándolos mediante lenguaje matemático apropiado. 
+- Resolver problemas de aplicación utilizando elementos de Geometría Analítica (rectas, 
+planos y formas cuadráticas), interpretando los resultados obtenidos en el contexto de 
+la   situación,   identificando   sus   elementos   y   comunicándolos   mediante   lenguaje 
+geométrico y algebraico. 
+- Utilizar   software   de   lenguaje   simbólico   (sistemas   de   ecuaciones,   matrices, 
+transformaciones  lineales,  entre  otros)  y  gráfico  (vectores,  rectas,  planos,  formas 
+cuadráticas, entre otros) para la resolución de situaciones problemáticas. 
+ 
+Contenidos mínimos 
+ 
+- Matrices.  
+- Determinantes. 
+- Sistemas de Ecuaciones Lineales. 
+- Vectores en R
+2
+ y en R
+3
+. 
+- Recta y Plano. 
+- Formas Cuadráticas. 
+- Espacios Vectoriales. 
+- Transformaciones Lineales. 
+- Autovalores y Autovectores.  
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+41 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 3 
+Asignatura: 
+FÍSICA I 
+Horas cátedra  
+semanales: 
+5 
+Departamento: Materias Básicas Horas reloj total: 120 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 1 
+Área: Física RTF 10 
+Objetivos 
+ 
+- Conocer   leyes,   conceptos   y   principios   de   la   Mecánica   Clásica   y   la   Óptica 
+geométrica para explicar fenómenos de la naturaleza. 
+- Aplicar  nociones  y  procedimientos  de  la  Mecánica,  Ondas  mecánicas  y  Óptica 
+geométrica para resolver situaciones problemáticas, de la Física y la Ingeniería.   
+- Comprender  los  modelos  de  la  Física  para  interpretar  los  fenómenos  y  leyes 
+relacionadas con la mecánica, las ondas mecánicas y la óptica geométrica.  
+- Aplicar  los  principios  y  leyes  de  la  Mecánica,  Ondas  mecánicas  y  Óptica  geométrica 
+para modelizar e interpretar situaciones cotidianas y/o experimentales de Física y de 
+ingeniería. 
+- Utilizar  adecuadamente  técnicas  básicas  del  laboratorio  de  Física,  para  analizar  e 
+interpretar correctamente los resultados obtenidos en las actividades experimentales, 
+que permitan validar los modelos teóricos. 
+ 
+Contenidos mínimos 
+ 
+- Cinemática del punto material.  
+- Dinámica del punto material y de los sistemas de puntos materiales.  
+- Leyes y teoremas de conservación en Mecánica.  
+- Cinemática y dinámica del rígido.  
+- Estática.  
+- Movimiento oscilatorio.  
+- Ondas mecánicas.  
+- Fluidos en equilibrio.  
+- Dinámica de fluidos. 
+- Óptica geométrica. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+42 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 4 
+Asignatura: 
+INGLÉS I 
+Horas cátedra  
+semanales: 
+2 
+Departamento: Materias Básicas Horas reloj total: 48 
+Bloque:  
+Ciencias y Tecnologías  
+Complementarias 
+Nivel: 1 
+Área: Idiomas RTF 3 
+Objetivos 
+ 
+- Desarrollar  las  dimensiones  de  la  competencia  comunicativa  intercultural  en  inglés 
+general  y  técnico,  para  comprender  y  producir  textos  en  el  dominio  académico-
+profesional.  
+- Interactuar   en   equipos   de   trabajo   negociando   saberes   lingüístico-discursivos   y 
+estratégicos  para  favorecer  la  construcción  colaborativa  según  la  tarea  o  problema  a 
+resolver.  
+ 
+Contenidos mínimos 
+ 
+- Dimensión  lingüística: agencia  y  nominalización  simple;  campos  semánticos  y 
+lexicales;  temporalidad,  aspectualidad,  modalidad  y  voz  (frases  verbales  simples); 
+complementación circunstancial simple; coordinación y subordinación. 
+- Dimensión  sociolingüístico-discursiva: géneros  discursivos  (dominio  académico-
+profesional   con   carga   lexical   y   estructura   discursiva   sencilla);   mecanismos   de 
+construcción de textos para su interpretación y producción; coherencia y cohesión. 
+- Dimensión estratégica: elementos textuales y paratextuales como facilitadores de la 
+comprensión, uso de extranjerización, interpretación y traducción léxica, formación de 
+palabras, demostración, descripción, entre otras. 
+- Dimensión  socio-cultural: componentes  del  contexto  comunicativo  en  el  que  la 
+comunicación  emerge.  Reconocimiento  de  contexto  socio-histórico  en  el  dominio 
+académico-profesional:   convenciones   sociales,   costumbres,   sistema   de   valores, 
+normas de convivencia, organización institucional, entre otros.  
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+43 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 5 
+Asignatura: 
+LÓGICA Y ESTRUCTURAS 
+DISCRETAS 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 1 
+Área: Desarrollo de Software RTF 6 
+Competencias 
+Específicas 
+CE1.3 
+Objetivos 
+ 
+- Aplicar métodos inductivos, deductivos y recursivos en resolución de situaciones 
+problemáticas.  
+- Caracterizar estructuras algebraicas y sus propiedades.  
+- Emplear la teoría de grafos, dígrafos y árboles en resolución de problemas. 
+ 
+Contenidos mínimos 
+ 
+- Lógica Simbólica Proposicional y de Predicados de Primer Orden.  
+- Inducción Matemática. 
+- Relaciones. 
+- Estructuras Algebraicas Finitas. 
+- Teoría de Grafos. 
+- Teoría de Conjuntos. 
+- Análisis Combinatorio. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+44 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 6 
+Asignatura: 
+ALGORITMOS Y 
+ESTRUCTURAS DE DATOS 
+Horas cátedra  
+semanales: 
+5 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 120 
+Bloque: Tecnologías Básicas Nivel: 1 
+Área: Desarrollo de Software RTF 10 
+Competencias 
+Específicas 
+CE1.3 
+Objetivos 
+ 
+- Identificar problemas algorítmicos.  
+- Comprender el proceso de desarrollo de software.  
+- Resolver problemas aplicando soluciones algorítmicas y estructuras de datos. 
+ 
+Contenidos mínimos 
+ 
+- Programación Imperativa y Concepto de algoritmo.  
+- Concepto de Dato. 
+- Tipos de Datos Simples. 
+- Tipo Abstracto de datos. 
+- Estructuras de Control Básicas. 
+- Estrategias de Resolución de problemas. 
+- Estructuras de Datos. 
+- Abstracciones con procedimientos y funciones. 
+- Estructuras de Datos lineales y no lineales. 
+- Algoritmos de Búsqueda, Recorrido y Ordenamiento. 
+- Archivos de Acceso Secuencial y Aleatorio. 
+- Recursividad. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+45 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 7 
+Asignatura: 
+ARQUITECTURA DE 
+COMPUTADORAS 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Básicas Nivel: 1 
+Área: 
+Computación y Comunicación de 
+Datos 
+RTF 6 
+Competencias 
+Específicas 
+CE1.2 
+Objetivos 
+ 
+- Comprender la representación de datos. 
+- Comprender las estructuras básicas de un computador y su funcionamiento. 
+- Distinguir la jerarquía de memoria y arquitecturas de microprocesadores. 
+- Comprender lenguajes de bajo nivel. 
+- Analizar   los   recursos   computacionales   a   ser   utilizados   en   el   procesamiento, 
+almacenamiento y comunicación de datos. 
+ 
+Contenidos mínimos 
+ 
+- Sistemas numéricos de distintas bases.  
+- Operaciones y Conversiones. 
+- Circuitos lógicos y digitales, códigos y representaciones. 
+- Algebra de Boole. 
+- Tecnologías de almacenamiento y dispositivos de entrada y salida. 
+- Componentes de la arquitectura interna. 
+- Plataformas de microprocesadores. 
+- Programación en lenguajes de bajo nivel. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+46 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 8 
+Asignatura: 
+SISTEMAS Y PROCESOS DE 
+NEGOCIO 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: 
+Ciencias y Tecnologías 
+Complementarias 
+Nivel: 1 
+Área: Sistemas de Información RTF 5 
+Competencias 
+Específicas 
+CE1.1 
+Objetivos 
+ 
+- Reconocer los aportes fundamentales de la Teoría General de Sistemas y del Enfoque 
+Sistémico al proceso ingenieril.  
+- Adquirir los fundamentos de los procesos y modelos de negocios.  
+- Asociar  los  Sistemas  de  Información  a  los  Procesos  de  Negocios  como  base  de  la 
+actividad ingenieril.  
+- Dimensionar a la información en todas las actividades que individuos y organizaciones 
+realizan, concientizando sobre la responsabilidad ética de la profesión del ingeniero en 
+sistemas de información. 
+ 
+Contenidos mínimos 
+ 
+- La Teoría General de Sistemas y el Enfoque Sistémico.  
+- Las organizaciones.  
+- La Organización como Sistema.  
+- Los Sistemas de Información. 
+- Procesos de negocio. 
+- Sistemas de Información Asociados a los Procesos de negocio. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+47 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 9 
+Asignatura: 
+ANÁLISIS MATEMÁTICO II 
+Horas cátedra  
+semanales: 
+5 
+Departamento: Materias Básicas Horas reloj total: 120 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 2 
+Área: Matemática RTF 10 
+Objetivos 
+ 
+- Describir  la trayectoria  de  un  objeto  a  partir  de funciones  vectoriales  de una  variable 
+real. 
+- Resolver situaciones problemáticas en contextos de Ingeniería utilizando recursos del 
+cálculo diferencial e integral de funciones reales de varias variables. 
+- Modelizar fenómenos naturales o inducidos que evolucionan en el tiempo, mediante el 
+empleo  de  Ecuaciones  Diferenciales,  reconociendo  su  importancia  y  aplicabilidad  en 
+Ingeniería. 
+- Argumentar en lenguaje coloquial y simbólico para explicar y justificar razonamientos, 
+y fundamentar procedimientos empleados en la resolución de problemas relacionados 
+con cálculo de gradiente, rotacional, divergencia y con los teoremas fundamentales del 
+Cálculo  Vectorial  (de  los  campos  conservativos,  de  Green,  de  Stokes  y  de  Gauss-
+Strogradski). 
+-  Resolver problemas de aplicación en los que se evidencie la utilización criteriosa de 
+los tópicos de la asignatura, utilizando lenguaje disciplinar adecuado en producciones 
+escritas u orales. 
+- Utilizar las TIC y software de aplicación en Matemática para la resolución de problemas 
+y simulación de problemas matemáticos relacionados con superficies, curvas y campos 
+vectoriales, favoreciendo la construcción de conocimiento. 
+ 
+Contenidos mínimos 
+ 
+- Funciones vectoriales de una variable real y sus aplicaciones. 
+- Funciones escalares de varias variables y sus aplicaciones 
+- Cálculo diferencial de funciones reales de varias variables reales y sus aplicaciones. 
+- Ecuaciones diferenciales ordinarias de primer y segundo orden y sus aplicaciones. 
+- Integrales dobles y triples y sus aplicaciones. 
+- Campos vectoriales. Rotacional y Divergencia. 
+- Integrales de línea, de superficie y sus aplicaciones 
+- Teoremas fundamentales del Cálculo Vectorial y sus aplicaciones. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+48 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 10 
+Asignatura: 
+FÍSICA II 
+Horas cátedra  
+semanales: 
+5 
+Departamento: Materias Básicas Horas reloj total: 120 
+Bloque: Ciencias Básicas de la  
+Ingeniería 
+Nivel: 2 
+Área: Física RTF 10 
+Objetivos 
+ 
+- Conocer  leyes,  conceptos  y  principios  de  la  Termodinámica  y  Electromagnetismo  y 
+Óptica Física para explicar fenómenos de la naturaleza. 
+- Aplicar  nociones  y  procedimientos  de  la  Termodinámica,  el  Electromagnetismo  y  la 
+Óptica Física para resolver situaciones problemáticas, de la Física y la Ingeniería.   
+- Comprender  los  modelos  que  usa  la  Física  para  interpretar  los  fenómenos  y  leyes 
+relacionadas con la Termodinámica, el Electromagnetismo y la Óptica Física.  
+- Aplicar  los  principios  y  leyes  de  la Termodinámica,  el  Electromagnetismo  y  la Óptica 
+Física para modelizar e interpretar situaciones cotidianas y/o experimentales de Física 
+y de ingeniería. 
+- Utilizar   técnicas   básicas   del   laboratorio   de   Física,   para   analizar   e   interpretar 
+correctamente   los  resultados  obtenidos   en   las   actividades   experimentales,  que 
+permitan validar los modelos teóricos. 
+ 
+Contenidos mínimos 
+ 
+- Introducción a la termodinámica. Calor y temperatura.  
+- Mecanismos de intercambio de calor.  
+- Primer y Segundo Principio de la termodinámica.  
+- Electrostática.  
+- Capacidad. Capacitores.  
+- Propiedades eléctricas de la materia.  
+- Circuitos de corriente continua. Ley de Ohm.  
+- Magnetostática.  
+- Inducción magnética. 
+- Propiedades magnéticas de la materia. 
+- Ecuaciones de Maxwell. Electromagnetismo. 
+- Movimiento ondulatorio. 
+- Ondas electromagnéticas. 
+- Polarización. 
+- Interferencia y difracción. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+49 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 11 
+Asignatura: 
+INGENIERÍA Y SOCIEDAD 
+Horas cátedra  
+semanales: 
+2 
+Departamento: Materias Básicas Horas reloj total: 48 
+Bloque: 
+Ciencias y Tecnologías  
+Complementarias 
+Nivel: 2 
+Área: Ciencias Sociales RTF 3 
+Objetivos 
+ 
+- Analizar  críticamente  las  relaciones  entre  la  ciencia  y  la  tecnología  para comprender 
+las potencialidades y los impactos del conocimiento científico y tecnológico en pos del 
+bienestar individual y colectivo. 
+- Interpretar  la ciencia  y  la  tecnología  desde  los paradigmas  actuales  y  comprender  el 
+vínculo  que  tienen  con  el  desarrollo y  la  sostenibilidad,  en  el  contexto  nacional  e 
+internacional actual. 
+- Comprender  el  carácter  transformador  de  la  ingeniería  en  la  construcción  de  una 
+sociedad  más  inclusiva,  equitativa  y  solidaria,  incluyendo  aspectos  relativos  a  la 
+perspectiva de géneros. 
+- Analizar  el  desempeño  de  la  ingeniería  desde  el  punto  de  vista  de  la  ética,  la 
+responsabilidad   profesional   y   el   compromiso   social,   considerando   el   impacto 
+económico, social y ambiental de su actividad en el contexto local y global. 
+ 
+Contenidos mínimos 
+ 
+- Conocimiento científico y tecnológico como base de la Ingeniería.  
+- Ciencia, tecnología, industria y desarrollo sostenibles. 
+- Dimensión e impacto social de la ingeniería. 
+- Políticas para el desarrollo nacional y regional.  
+- La profesión de la Ingeniería en la Argentina y las problemáticas contemporáneas. 
+- Perspectiva de género.  
+- Ética profesional. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+50 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 12 
+Asignatura: 
+INGLÉS 2 
+Horas cátedra  
+semanales: 
+2 
+Departamento: Materias Básicas Horas reloj total: 48 
+Bloque: 
+Ciencias y Tecnologías  
+Complementarias 
+Nivel: 2 
+Área: Idiomas   
+Objetivos 
+ 
+- Integrar las dimensiones de la competencia comunicativa intercultural en inglés general 
+y técnico para generar nuevos textos pertinentes en el dominio académico-científico.  
+- Interactuar   en   equipos   de   trabajo   generando saberes   lingüístico-discursivos   y 
+estratégicos para favorecer la construcción colaborativa según la tarea o problema a 
+resolver. 
+ 
+Contenidos mínimos 
+ 
+- Dimensión  lingüística: agencia  y  nominalización compleja;  campos  semánticos  y 
+lexicales; temporalidad, aspectualidad, modalidad y voz (frases verbales compuestos); 
+complementación circunstancial compleja; coordinación y subordinación. 
+- Dimensión  sociolingüístico- discursiva: géneros  discursivos  (dominio académico-
+científico con carga lexical y estructura discursiva compleja); mecanismos elaborados 
+de construcción de textos para su interpretación y producción; coherencia y cohesión; 
+dispositivos de prominencia textual. 
+- Dimensión  estratégica: interpretación y  uso  de  paráfrasis,  sustitución,  circunloquio, 
+gesticulación, entre otras. 
+- Dimensión socio-cultural: componentes del contexto comunicativo intercultural en el 
+que la comunicación emerge. Reconocimiento de contexto socio-histórico en el dominio 
+académico-científico:  sistema  de  valores,  patrones  de  socialización,  organización 
+institucional, posicionamiento político local-global, entre otros. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+51 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 13 
+Asignatura: 
+SINTAXIS Y SEMÁNTICA DE 
+LOS LENGUAJES 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Básicas Nivel: 2 
+Área: Desarrollo de Software RTF 8 
+Competencias 
+Específicas 
+CE1.3 
+Objetivos 
+ 
+- Comprender la sintaxis y semántica de los lenguajes de programación.  
+- Comprender los fundamentos de los lenguajes formales, gramáticas y autómatas. 
+- Emplear conceptos y procedimientos de las gramáticas libres de contexto y gramáticas 
+regulares en la especificación de la sintaxis de los lenguajes de programación.  
+- Diferenciar los procesos de traducción de los lenguajes. 
+ 
+Contenidos mínimos 
+ 
+- Gramática y Lenguajes Formales. 
+- Autómatas Finitos. Expresiones Regulares.  
+- Gramáticas Independientes del Contexto. 
+- Autómatas con Pila y Máquinas de Turing. 
+- Análisis Léxico, Sintáctico y Semántico. 
+- Traductores. Proceso de Traducción. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+52 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 14 
+Asignatura: 
+PARADIGMAS   DE 
+PROGRAMACIÓN 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Básicas Nivel: 2 
+Área: Desarrollo de Software RTF 8 
+Competencias 
+Específicas 
+CE1.3 
+Objetivos 
+ 
+- Comprender  los  fundamentos  de  los  paradigmas  de  programación  asociados  a 
+lenguajes de programación concretos. 
+- Aplicar los diferentes paradigmas en la resolución de problemas. 
+- Adquirir criterios para la selección del paradigma de programación a utilizar en un caso 
+concreto. 
+ 
+Contenidos mínimos 
+ 
+- Concepto de Paradigmas de Programación. 
+- Paradigma Funcional. 
+- Lenguajes de Programación Funcional. 
+- Paradigma Lógico. 
+- Lenguaje de Programación Lógica. 
+- Paradigma Orientado a Objetos. 
+- Lenguajes de Programación Orientados a Objetos. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+53 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 15 
+Asignatura: 
+SISTEMAS OPERATIVOS 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Aplicadas Nivel: 2 
+Área: 
+Computación y Comunicación de 
+Datos 
+RTF 8 
+Competencias 
+Específicas 
+CE1.2, CE2.1 
+Objetivos 
+ 
+- Interpretar aspectos de diseño en los sistemas operativos. 
+- Conocer los algoritmos utilizados por los sistemas operativos para la administración de 
+recursos. 
+- Utilizar las herramientas de instalación y administración de los sistemas operativos en 
+ambientes físicos y virtuales. 
+- Comprender las características y el funcionamiento del procesamiento distribuido y en 
+tiempo real.  
+- Identificar  aspectos  relacionados  con  la  seguridad  y  protección  en  los  sistemas 
+operativos en relación con los recursos que administra. 
+ 
+Contenidos mínimos  
+ 
+- Estructura, características y clasificación de Sistemas Operativos  
+- Planificación e hilos en Procesos. Comunicación y Sincronización entre Procesos. 
+- Gestión de Memoria. Sistemas de Archivos. 
+- Gestión de Entrada/Salida. Interrupciones. 
+- Procesamiento distribuido. Procesamiento en tiempo real. 
+- Seguridad y Protección. 
+- Virtualización de Sistemas Operativos. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+54 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 16 
+Asignatura: 
+ANÁLISIS DE SISTEMAS DE 
+INFORMACIÓN 
+Horas cátedra  
+semanales: 
+6 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 144 
+Bloque: Tecnologías Aplicadas Nivel: 2 
+Área: Sistemas de Información RTF 10 
+Competencias 
+Específicas 
+CE1.1, CE1.3, CE3.1 
+Objetivos 
+ 
+- Reconocer las etapas del proceso de desarrollo de sistemas de información.  
+- Modelar procesos de negocio utilizando metodologías, herramientas y técnicas de 
+análisis.  
+- Aplicar los elementos que componen la ingeniería de requerimientos.  
+- Validar la calidad de los modelos desarrollados según estándares. 
+ 
+Contenidos mínimos 
+ 
+- Procesos de desarrollo de Sistemas de Información. 
+- Metodologías y Herramientas de análisis de sistemas. 
+- Ingeniería de Requerimientos. 
+- Modelado de Negocio y del Sistema de Información. 
+- Diagnóstico de los problemas. 
+- Calidad en la especificación de requerimientos. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+55 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 17 
+Asignatura: 
+PROBABILIDAD Y 
+ESTADÍSTICA 
+Horas cátedra  
+semanales: 
+3 
+Departamento: Materias Básicas Horas reloj total: 72 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 3 
+Área: Matemática RTF 6 
+Objetivos 
+ 
+- Aplicar los conceptos de la estadística descriptiva en el análisis de conjuntos de datos 
+y la formulación de hipótesis estadísticas, utilizando planillas de cálculo y/o programas 
+estadísticos específicos 
+- Reconocer   experimentos   y   problemas   de   aplicación   en   los   que   interviene   el 
+componente aleatorio para calcular probabilidades aplicando propiedades, teoremas e 
+interpretando los resultados obtenidos. 
+- Aplicar   las   distribuciones   de   probabilidad   en   la   modelización   de   situaciones 
+problemáticas del campo de la ingeniería u otros campos del conocimiento. 
+- Estimar los parámetros de las variables de interés para caracterizar a poblaciones en 
+estudio aplicando propiedades, teoremas y técnicas estadísticas. 
+- Plantear pruebas de hipótesis de problemas relacionados con la ingeniería aplicando 
+propiedades, teoremas y técnicas estadísticas. 
+- Analizar  situaciones  donde  se  plantea  la  relación  entre  dos  variables,  evaluar  los 
+supuestos teóricos para determinar la factibilidad de aplicación del análisis de regresión 
+y efectuar los cálculos adecuados interpretando los resultados obtenidos. 
+- Utilizar  las  TICs  y  software  de  aplicación  en  Estadística  para  la  construcción  de 
+conocimiento, para la resolución y simulación de los modelos aleatorios planteados. 
+ 
+Contenidos mínimos 
+ 
+- Estadística descriptiva. 
+- Probabilidad.   
+- Variables aleatorias. Distribuciones de Probabilidad.   
+- Inferencia estadística. Estimación de parámetros puntual y por intervalos de confianza. 
+Pruebas de hipótesis. 
+- Introducción al análisis de regresión. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+56 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 18 
+Asignatura: 
+ECONOMÍA 
+Horas cátedra  
+semanales: 
+3 
+Departamento: Materias Básicas Horas reloj total: 72 
+Bloque: 
+Ciencias y Tecnologías  
+Complementarias 
+Nivel: 3 
+Área: Ciencias Sociales RTF 6 
+Objetivos 
+ 
+- Identificar,  formular  y  resolver  problemas  relacionados  con  aspectos  económicos  de 
+productos. 
+- Identificar,  formular  y  resolver  problemas  relacionados  con  el  diseño  financiero  y  el 
+análisis económico de proyectos de inversión. 
+- Interpretar la realidad económica del contexto nacional e internacional. 
+ 
+Contenidos mínimos 
+ 
+- Objeto de la economía. 
+- Microeconomía. 
+- Función de producción.               
+- Tipos de Mercados.  
+- Los agentes económicos y sus decisiones. 
+- Macroeconomía. 
+- Variables e indicadores.  
+- Cuentas Nacionales.  
+- Interpretación de la realidad económica. 
+- Análisis económico de proyectos de inversión 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+57 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 19 
+Asignatura: 
+BASES DE DATOS 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Aplicadas Nivel: 3 
+Área: Desarrollo de Software RTF 8 
+Competencias 
+Específicas 
+CE1.1, CE1.3, CE2.1, CE5.1 
+Objetivos 
+ 
+- Comprender los diversos modelos conceptuales de datos.  
+- Emplear metodologías de diseño de Base de Datos conceptuales.  
+- Asegurar la consistencia e integridad de los datos.  
+- Reconocer las amenazas a la seguridad y a la privacidad en las bases de datos y las 
+medidas de control a definir. 
+- Gestionar una Base de Datos. 
+ 
+Contenidos mínimos 
+ 
+- Bases de Datos.  
+- Sistema de Gestión de Bases de Datos. 
+- Arquitectura de los Sistemas de Bases de Datos.  
+- Modelos Conceptuales de Datos Relacional y No Relacionales. 
+- Almacenamiento y acceso a los datos. 
+- Diseño de base de datos. 
+- Álgebra Relacional. 
+- Lenguajes de acceso a Bases de Datos Relacionales. 
+- Integridad de Datos. Transacciones y acceso concurrente. 
+- Seguridad y Privacidad. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+58 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 20 
+Asignatura: 
+DESARROLLO DE SOFTWARE 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Aplicadas Nivel: 3 
+Área: Desarrollo de Software RTF 8 
+Competencias 
+Específicas 
+CE1.3, CE2.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Conocer las arquitecturas, herramientas y patrones para el desarrollo de software. 
+- Desarrollar interfaces de usuario. 
+- Crear soluciones de software que den respuestas a necesidades reales. 
+- Aplicar buenas prácticas y tecnologías en el desarrollo seguro. 
+ 
+Contenidos mínimos 
+ 
+- Arquitectura de aplicaciones multicapa. 
+- Herramientas de soporte al proceso de desarrollo. 
+- Programación de la interfaz de usuario de una aplicación. 
+- Aplicaciones orientadas a servicios. 
+- Desarrollo Seguro. 
+- Pruebas unitarias. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+59 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 21 
+Asignatura: 
+COMUNICACIÓN DE DATOS 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Básicas Nivel: 3 
+Área: 
+Computación y Comunicación de 
+Datos 
+RTF 8 
+Competencias 
+Específicas 
+CE1.2, CE2.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Identificar los procedimientos, procesos, estándares y dispositivos involucrados en la 
+comunicación de datos. 
+- Analizar los principios y procedimientos de la transmisión de datos. 
+- Evaluar las topologías, protocolos y arquitecturas utilizadas en la transmisión de datos. 
+- Analizar la seguridad de los sistemas de comunicación. 
+- Emplear los conceptos de Teoría de la información. 
+ 
+Contenidos mínimos 
+ 
+- Señales. Características de la Transmisión Analógica y Digital.  
+- Medidas en Telecomunicaciones.  
+- Canales de Comunicaciones. 
+- Perturbaciones en la Transmisión. 
+- Arquitecturas de Sistemas de Comunicaciones. Modelos de Capas.  
+- Modulación y Multiplexación. 
+- Seguridad en los Sistemas de comunicación. 
+- Teoría de la Información. 
+- Medios de enlace. 
+- Errores en la comunicación de datos. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+60 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 22 
+Asignatura: 
+ANÁLISIS NUMÉRICO 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: 
+Ciencias Básicas de la  
+Ingeniería 
+Nivel: 3 
+Área: Sistemas Inteligentes RTF 6 
+Competencias 
+Específicas 
+CE1.2 
+Objetivos 
+ 
+- Interpretar  el análisis  y  procesamiento  de  señales  discretas  y  ruido  a  través  de 
+herramientas disponibles.  
+- Emplear   diferentes   métodos   numéricos   en   la   resolución   de   ecuaciones   y 
+aproximaciones.  
+- Analizar los métodos de análisis de señales y métodos numéricos en implementaciones 
+computacionales. 
+ 
+Contenidos mínimos 
+ 
+- Análisis de Fourier. Transformada discreta de Fourier. Transformada rápida de Fourier. 
+Aplicación de Ecuaciones Diferenciales. 
+- Métodos Numéricos. 
+- Análisis de señales y sistemas en el dominio del tiempo y frecuencia. Suma e integral 
+de convolución. 
+Métodos de Aproximación. 
+- Resolución numérica de ecuaciones diferenciales en derivadas ordinarias y parciales. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+61 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 23 
+Asignatura: 
+DISEÑO DE SISTEMAS DE 
+INFORMACIÓN 
+Horas cátedra  
+semanales: 
+6 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 144 
+Bloque: Tecnologías Aplicadas Nivel: 3 
+Área: Sistemas de Información RTF 10 
+Competencias 
+Específicas 
+CE1.1, CE1.3, CE3.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Distinguir las metodologías, modelos, técnicas y lenguajes del proceso de diseño. 
+- Elaborar  modelos  de  diseño  de  sistemas  de  información,  aplicando  diseño  de 
+arquitectura. 
+- Aplicar patrones de diseño de sistemas orientados a un diseño de calidad. 
+- Emplear conceptos de experiencia de usuario en el diseño del sistema de información. 
+- Aplicar herramientas de verificación y validación en el diseño, respetando criterios de 
+calidad y seguridad. 
+ 
+Contenidos mínimos 
+ 
+- Diseño de Arquitecturas. 
+- Patrones de Diseño de Sistemas. 
+- Verificación y Validación del Diseño. 
+- Diseño de Experiencia de Usuario. 
+- Diseño de Procesos. 
+- Estrategias de Prototipado y de Diseño de Componentes. 
+- Integración de Sistemas. 
+- Calidad y Seguridad en el Diseño de Sistemas de Información. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+62 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 24 
+Asignatura: 
+LEGISLACIÓN 
+Horas cátedra  
+semanales: 
+2 
+Departamento: Materias Básicas Horas reloj total: 48 
+Bloque: 
+Ciencias y Tecnologías  
+Complementarias 
+Nivel: 4 
+Área: Ciencias Sociales RTF 3 
+Competencias 
+Específicas 
+CE7.1 
+Objetivos 
+ 
+- Interpretar  leyes,  decretos  y  disposiciones  del  Sistema  Jurídico  Argentino  para 
+desempeñarse  profesionalmente  conforme  a  pautas  éticas,  y  en  particular  para  su 
+aplicación en los dictámenes y peritajes. 
+- Distinguir y valorar situaciones relativas al ejercicio profesional. 
+- Valorar los aspectos éticos y de responsabilidad social de la actividad profesional desde 
+la perspectiva del derecho, para desarrollar innovación en tecnología, en contexto de 
+cambio. 
+- Detectar  situaciones  de  riesgo  y  potencialmente  dañinas  y  proponer  los  recaudos 
+pertinentes a la normativa aplicable para su prevención en materia de responsabilidad 
+profesional y compromiso social  
+- Identificar  la relación  entre  el  ejercicio  de  la  ingeniería  y  el  impacto  con  la  ingeniería 
+sustentable en función de las regulaciones normativas vigentes. 
+ 
+Contenidos mínimos 
+ 
+- Derecho. Derecho público y privado. 
+- Constitución nacional. 
+- Sistema normativo argentino. 
+- Sociedades. 
+- Contratos. 
+- Derecho Laboral. 
+- Ejercicio profesional  
+- La ética en el ejercicio profesional. 
+- Derechos y deberes legales del profesional. 
+- Actividad pericial. 
+- Responsabilidad profesional: civil, administrativa y penal. 
+- Legislación sobre obras. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+63 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 
+25 
+Asignatura: 
+INGENIERÍA Y CALIDAD DE 
+SOFTWARE 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Aplicadas Nivel: 4 
+Área: Desarrollo de Software RTF 6 
+Competencias 
+Específicas 
+CE1.1, CE1.3, CE3.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Comprender los componentes de un proyecto de Ingeniería de Software. 
+- Aplicar estándares internacionales de certificación en Ingeniería de Software. 
+- Emplear las métricas de software que se aplican al desarrollo de software. 
+- Aplicar técnicas y herramientas de auditoría de software. 
+ 
+Contenidos mínimos 
+ 
+- Software e Ingeniería de Software. 
+- Disciplinas de la Ingeniería de Software. 
+- Gestión de Configuración de Software. 
+- Modelos de Calidad de Software. 
+- Aseguramiento de Calidad del Producto de Software. Validación y Verificación. 
+- Enfoques en el desarrollo de software. 
+- Despliegue de Software. 
+- Métricas y Estimaciones de Software. 
+- Auditoría de Software. 
+- Plan de desarrollo y mantenimiento de software. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+64 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 26 
+Asignatura: 
+REDES DE DATOS 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Aplicadas Nivel: 4 
+Área: 
+Computación y Comunicación de 
+Datos 
+RTF 8 
+Competencias 
+Específicas 
+CE1.2, CE2.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Aplicar las arquitecturas de redes de datos como soporte de un sistema de información. 
+- Analizar los componentes necesarios que conforman una red de datos garantizando la 
+calidad de servicio. 
+- Evaluar los conceptos de seguridad informática en una red de datos. 
+- Evaluar arquitecturas de redes y sus componentes. 
+ 
+Contenidos mínimos 
+ 
+- Clasificación y Arquitectura de Redes. 
+- Capa de Enlace. Acceso Múltiple al Medio. Estándares IEEE. 
+- Redes Virtuales. Redes Inalámbricas. 
+- Protocolo TCP/IP. 
+- Protocolos y Técnicas de Encaminamiento. 
+- Capa de red. 
+- Capa de Transporte. 
+- Capa de Aplicación 
+- Seguridad. Autenticación y Encriptación. 
+- Redes Privadas Virtuales. 
+- Monitoreo y Gestión de Redes. 
+- Calidad de Servicio. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+65 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 27 
+Asignatura: 
+INVESTIGACIÓN OPERATIVA 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Básicas Nivel: 4 
+Área: Sistemas Inteligentes RTF 6 
+Competencias 
+Específicas 
+CE1.1 
+Objetivos 
+ 
+- Modelar problemas de toma de decisión referentes a la conducción y coordinación de 
+actividades dentro de una organización.  
+- Resolver problemas de optimización en la toma de decisión. 
+- Construir  modelos  de  pronósticos  para  caracterizar  y  predecir  valores  futuros  en 
+sistemas dinámicos. 
+ 
+Contenidos mínimos 
+ 
+- Programación Lineal. 
+- Análisis de Sensibilidad. 
+- Programación No Lineal.  
+- Modelos de Redes. 
+- Modelos de Inventario Determinísticos y Probabilísticos. 
+- Modelos de Pronósticos. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+66 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 28 
+Asignatura: 
+SIMULACIÓN 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Básicas Nivel: 4 
+Área: Sistemas Inteligentes RTF 5 
+Competencias 
+Específicas 
+CE1.3, CE4.1 
+Objetivos 
+ 
+- Comprender  la  simulación  de  eventos  discretos,  continuos  y  basados  en  agentes  de 
+los sistemas.  
+- Reconocer los métodos estadísticos y probabilísticos utilizados en la construcción de 
+modelos de simulación. 
+- Emplear los procesos de verificación y validación de los modelos.  
+- Interpretar los resultados estadísticos de la simulación. 
+ 
+Contenidos mínimos 
+ 
+- Proceso de la simulación. Modelado conceptual. 
+- Identificación de Distribuciones. Generación de Variables Aleatorias, Continuas y 
+Discretas. 
+- Números Pseudoaleatorios. Modelado de Sistemas de Colas. 
+- Simulación de Sistemas Discretos, Continuos y basada en Agentes 
+- Traslación del Modelo a la Computadora. 
+- Lenguajes de Simulación Orientados a Eventos y a Procesos. 
+- Métodos de Reducción de Varianza. Validación e Implantación. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+67 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 29 
+Asignatura: 
+TECNOLOGÍAS PARA LA 
+AUTOMATIZACIÓN 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Aplicadas Nivel: 4 
+Área: Sistemas Inteligentes RTF 6 
+Competencias 
+Específicas 
+CE1.3, CE2.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Comprender el rol de los modelos en el diseño y la evaluación de estrategias de control.  
+- Distinguir los tipos de control y los controladores utilizados en la práctica industrial.  
+- Proyectar sistemas de adquisición, transmisión y procesamiento de datos utilizados en 
+los procesos de mejora. 
+- Planificar tareas para sistemas robóticos. 
+- Conocer las tecnologías utilizadas en la medición de variables, la transmisión de datos 
+y la sistematización de la información en el contexto de la industria inteligente. 
+ 
+Contenidos mínimos 
+ 
+- Modelado. 
+- Tipos de Control y Controladores. 
+- Estabilidad. 
+- Internet de las cosas. Sensores como fuentes de información. 
+- Automatización de procesos. 
+- Robótica. 
+- Sistemas de Información para la Industria inteligente. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+68 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 30 
+Asignatura: 
+ADMINISTRACIÓN  DE 
+SISTEMAS  DE INFORMACIÓN 
+Horas cátedra  
+semanales: 
+6 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 144 
+Bloque: Tecnologías Aplicadas Nivel: 4 
+Área: Sistemas de Información RTF 10 
+Competencias 
+Específicas 
+CE1.1, CE4.1, CE5.1, CE6.1 
+Objetivos 
+ 
+- Aplicar técnicas y metodologías en la elaboración del plan estratégico en la selección y 
+dirección  de  talento  y  capital  humano,  procesos  y  sistemas  software,  sistemas  de 
+computación  y  comunicación  en  áreas  y  proyectos  de  sistemas  de  Información, 
+considerando los riesgos y optimizando los recursos tecnológicos. 
+- Identificar los fundamentos de las relaciones laborales y la higiene y seguridad en el 
+trabajo.  
+- Realizar  el  análisis  de  viabilidad y  factibilidad  de  proyectos  informáticos,  empleando 
+técnicas y herramientas relacionadas para su evaluación. 
+- Incorporar estrategias y herramientas de identificación de emprendimientos con base 
+tecnológica. 
+ 
+Contenidos mínimos 
+ 
+- Plan Estratégico. 
+- Gobierno y gestión de Tecnología de la Información y la Comunicación. 
+- Modelos de contratación. 
+- Administración  de  los recursos  asociados  a  los Sistemas  de Información,  Software  y 
+Comunicación. 
+- Dirección de Talento y Capital Humano. 
+- Higiene y Seguridad en el Trabajo. 
+- Emprendedorismo. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+69 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 31 
+Asignatura: 
+INTELIGENCIA ARTIFICIAL 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Aplicadas Nivel: 5 
+Área: Sistemas Inteligentes RTF 6 
+Competencias 
+Específicas 
+CE1.1, CE1.3, CE4.1, CE5.1 
+Objetivos 
+ 
+- Gestionar proyectos de construcción de sistemas inteligentes.  
+- Reconocer estrategias de creación de sistemas inteligentes.  
+- Resolver problemas de representación del conocimiento y razonamiento en ambientes 
+deterministas y bajo incertidumbre. 
+- Evaluar modelos de aprendizaje automático a utilizar en la solución de problemas. 
+ 
+Contenidos mínimos 
+ 
+- Agentes Inteligentes.  
+- Búsquedas en espacio de estado y en espacio de solución. Heurísticas y meta-
+heurísticas. 
+- Planificación. 
+- Representación de Conocimiento. 
+- Razonamiento en ambientes deterministas y bajo incertidumbre. 
+- Reglas de producción. 
+- Sistemas basados en conocimiento. 
+- Aprendizaje automático. 
+- Procesamiento del lenguaje Natural. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+70 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 32 
+Asignatura: 
+CIENCIA DE DATOS 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Aplicadas Nivel: 5 
+Área: Sistemas Inteligentes RTF 6 
+Competencias 
+Específicas 
+CE1.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Distinguir estrategias para gestionar un proyecto de ciencia de datos. 
+- Aplicar estrategias de extracción, visualización y transformación de datos en forma de 
+patrones útiles y aplicables en el desarrollo de sistemas inteligentes. 
+- Crear modelos que resuelvan situaciones problemáticas particulares en el contexto del 
+negocio. 
+ 
+Contenidos mínimos 
+ 
+- Gestión de proyectos de ciencia de datos. 
+- Análisis exploratorio de los datos. 
+- Visualización de datos. 
+- Extracción y Transformación de datos. 
+- Ingeniería de datos. 
+- Algoritmos de Clasificación y Agrupamiento. 
+- Minería de Texto.  
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+71 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 33 
+Asignatura: 
+SISTEMAS DE GESTIÓN 
+Horas cátedra  
+semanales: 
+4 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 96 
+Bloque: Tecnologías Aplicadas Nivel: 5 
+Área: Gestión Ingenieril RTF 8 
+Competencias 
+Específicas 
+CE1.1, CE3.1, CE4.1, CE5.1, CE6.1 
+Objetivos 
+ 
+- Emplear los fundamentos de la gestión de procesos de negocios.  
+- Gestionar los sistemas para la planificación de proyectos.  
+- Formular  estrategias  en  el  uso  de  tecnologías  de  la  información  en  la  gestión  del 
+conocimiento.  
+- Aplicar los sistemas de soporte de decisión y su proceso de desarrollo. 
+ 
+Contenidos mínimos 
+ 
+- Gestión de Procesos de Negocios. 
+- Gestión de desempeño de procesos. 
+- Sistemas de Gestión para la planificación de proyectos. 
+- Sistemas de Información para la Gestión de Procesos de Negocio. 
+- Gestión de la Tecnología de la Información. 
+- Procesos y Modelos de Decisión. 
+- Sistemas de Soporte a la Toma de Decisión. 
+- Gestión del conocimiento. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+72 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 34 
+Asignatura: 
+GESTIÓN GERENCIAL 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: 
+Ciencias y Tecnologías 
+Complementarias. 
+Nivel: 5 
+Área: Gestión Ingenieril RTF 6 
+Competencias 
+Específicas 
+CE1.1, CE5.1, CE6.1 
+Objetivos 
+ 
+- Relacionar  lineamientos  de  gestión  gerencial  en  los  procesos  aplicables  a  las 
+organizaciones inteligentes.  
+- Dimensionar  los  impactos  en  la  dirección  y  liderazgo  de  los  modelos  de  negocios 
+facilitados por la innovación tecnológica en las organizaciones.  
+- Promover  la responsabilidad  social  empresarial  y  el  fortalecimiento  de  las  actitudes 
+emprendedoras. 
+ 
+Contenidos mínimos 
+ 
+- Estrategias Empresariales en el gerenciamiento de negocios. 
+- Conducta humana en las organizaciones. 
+- Modelos de Negocios. 
+- Reingeniería de Procesos. 
+- Innovación tecnológica en las organizaciones. 
+- Responsabilidad Social Empresarial. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+73 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 35 
+Asignatura: 
+SEGURIDAD EN LOS 
+SISTEMAS DE INFORMACIÓN 
+Horas cátedra  
+semanales: 
+3 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 72 
+Bloque: Tecnologías Aplicadas Nivel: 5 
+Área: Gestión Ingenieril RTF 6 
+Competencias 
+Específicas 
+CE1.1, CE2.1, CE3.1, CE4.1, CE5.1, CE7.1 
+Objetivos 
+ 
+- Aplicar modelos de referencia en la gestión de la seguridad de la información según las 
+normativas vigentes.  
+- Planificar controles de seguridad basados en la gestión de riesgo.  
+- Desarrollar un plan de seguridad asegurando la continuidad del negocio.  
+- Comprender el proceso de auditoría y tratamiento de evidencias. 
+ 
+Contenidos mínimos 
+ 
+- Seguridad de la Información. 
+- Marco Normativo. 
+- Gestión de Riesgos. 
+- Sistemas de gestión de seguridad.  
+- Auditoría de Sistemas de Información. 
+- Peritaje informático forense. 
+ 
+ 
+  
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+74 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+Carrera: 
+Ingeniería en Sistemas de 
+Información 
+N° de orden: 36 
+Asignatura: 
+PROYECTO FINAL 
+Horas cátedra  
+semanales: 
+6 
+Departamento: 
+Ingeniería en Sistemas de  
+Información 
+Horas reloj total: 144 
+Bloque: Tecnologías Aplicadas Nivel: 5 
+Área: Sistemas de Información RTF 13 
+Competencias 
+Específicas 
+CE1.1, CE1.2, CE1.3, CE2.1, CE3.1, CE4.1, CE5.1 
+Objetivos 
+ 
+- Aplicar técnicas, metodologías y herramientas de gestión de proyectos de sistemas de 
+información. 
+- Emplear conceptos de gestión de equipos y liderazgo, alcance, costos y cronograma, 
+comunicaciones, riesgos, calidad e integración del proyecto. 
+- Evaluar  el  impacto  y  la  protección  ambiental  en  los  proyectos  de  sistemas  de 
+información. 
+- Integrar conocimientos y competencias en el desarrollo de un proyecto de un sistema 
+de información. 
+ 
+Contenidos mínimos  
+ 
+- Gestión de Proyectos de Sistemas de Información.  
+- Gestión de equipos y liderazgo. 
+- Desarrollo de un Proyecto de Sistema de Información. 
+- Impacto y Protección Ambiental. 
+ 
+ 
+El  Proyecto  Final  se  define  como  un  desarrollo  aplicable  preferentemente  al  entorno,  con 
+posibilidades  de  transferencia  al  medio,  o  una  solución,  priorizando  la  resolución  de  problemas 
+locales o del territorio. Se podrá cursar y aprobar durante el último nivel de la carrera, por lo que 
+el Diseño Curricular prevé la formación necesaria previa y simultánea con el cursado de Proyecto 
+Final en el último nivel de la carrera.   
+Considerando que la asignatura Proyecto Final es la integradora del 5º nivel de la carrera, la misma 
+deberá ser la última a aprobar del Plan de Estudios. 
+ 
+ 
+ 
+
+  “Las Malvinas son argentinas”     
+    
+                        
+  
+         Ministerio de Educación  
+     Universidad Tecnológica Nacional 
+                       Rectorado   
+ 
+75 
+ 
+    
+     
+PABLO A. HUEL 
+JEFE DE DEPARTAMENTO  
+APOYO AL CONSEJO SUPERIOR 
+ 
+9- EVALUACIÓN Y ACTUALIZACIÓN DEL DISEÑO CURRICULAR  
+El  Consejo  de Directoras  y Directores  de  Ingeniería  en  Sistemas  de  Información  realizará  la 
+evaluación permanente de la implementación del Diseño Curricular, con el objetivo de analizar las 
+necesidades de actualización y mejora.  
+Con este objetivo, se elaborarán informes trianuales que den cuenta del grado de cumplimiento 
+de los objetivos plasmados en el Diseño Curricular, respecto a la formación profesional ofrecida, 
+las  condiciones  para  su  implementación,  la  articulación  con  las  demandas  del  medio  y  la 
+incorporación de la mirada de los claustros y de los actores de la sociedad. Los informes serán 
+presentados a la Comisión de Enseñanza del Consejo Superior cumpliendo los criterios que dicho 
+Cuerpo colegiado reglamente. 
+Para esta tarea, el Consejo contará con la colaboración de la Secretaría Académica del Rectorado 
+y los equipos técnicos que ésta disponga. 
