@@ -22,8 +22,8 @@ export const getStatusColor = (
   if (status === 'ATTENDED')
     return 'bg-yellow-100 text-yellow-800 border-yellow-200 shadow-sm';
   if (canTake)
-    return 'bg-white text-gray-900 border-gray-200 hover:border-indigo-400 hover:shadow-md cursor-pointer';
-  return 'bg-white text-gray-900 border-gray-200';
+    return 'bg-white text-slate-900 border-slate-300 shadow-sm hover:border-blue-500 hover:shadow-md cursor-pointer transition-all';
+  return 'bg-slate-100 text-slate-500 border-slate-200 shadow-sm cursor-not-allowed';
 };
 
 export const getStatusBadge = (

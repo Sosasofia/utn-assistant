@@ -61,19 +61,19 @@ export function ElectiveModal({ isOpen, onClose, onSave, year }: Props) {
     <div className="fixed inset-0 bg-slate-900/50 flex items-center justify-center z-[100] backdrop-blur-sm">
       <div className="bg-white p-6 rounded-xl shadow-2xl w-96 max-w-[90vw] animate-in fade-in zoom-in duration-200">
         <h2 className="text-xl font-bold text-slate-800 mb-1">
-          Select Elective
+          Seleccionar Electiva
         </h2>
         <p className="text-sm text-slate-500 mb-4">For Year {year}</p>
 
         {loading ? (
           <div className="text-center py-8 text-slate-400">
-            Loading options...
+            Cargando opciones...
           </div>
         ) : (
           <>
             <div className="mb-5">
               <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
-                Available Subjects
+                Materias disponibles
               </label>
               <select
                 className="w-full border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-indigo-500 outline-none bg-slate-50"
@@ -91,28 +91,26 @@ export function ElectiveModal({ isOpen, onClose, onSave, year }: Props) {
 
             <div className="mb-6">
               <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">
-                Mark As
+                Marcar como
               </label>
               <div className="grid grid-cols-2 gap-3">
                 <button
                   onClick={() => setStatus('ATTENDED')}
-                  className={`py-2 rounded-lg border text-sm font-semibold transition-colors ${
-                    status === 'ATTENDED'
-                      ? 'bg-yellow-100 border-yellow-400 text-yellow-900'
-                      : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                  }`}
+                  className={`py-2 rounded-lg border text-sm font-semibold transition-colors ${status === 'ATTENDED'
+                    ? 'bg-yellow-100 border-yellow-400 text-yellow-900'
+                    : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
                 >
-                  Firma (Attended)
+                  Firmada
                 </button>
                 <button
                   onClick={() => setStatus('APPROVED')}
-                  className={`py-2 rounded-lg border text-sm font-semibold transition-colors ${
-                    status === 'APPROVED'
-                      ? 'bg-green-100 border-green-400 text-green-900'
-                      : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
-                  }`}
+                  className={`py-2 rounded-lg border text-sm font-semibold transition-colors ${status === 'APPROVED'
+                    ? 'bg-green-100 border-green-400 text-green-900'
+                    : 'bg-white border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
                 >
-                  Final (Approved)
+                  Final Aprobado
                 </button>
               </div>
             </div>
@@ -124,7 +122,7 @@ export function ElectiveModal({ isOpen, onClose, onSave, year }: Props) {
             onClick={onClose}
             className="px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 rounded-lg transition"
           >
-            Cancel
+            Cancelar
           </button>
           <button
             onClick={() => {
@@ -133,7 +131,7 @@ export function ElectiveModal({ isOpen, onClose, onSave, year }: Props) {
             disabled={!selectedId}
             className="px-4 py-2 text-sm font-bold text-white bg-indigo-600 rounded-lg hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed transition shadow-sm"
           >
-            Save
+            Guardar
           </button>
         </div>
       </div>

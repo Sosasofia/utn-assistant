@@ -69,7 +69,7 @@ export function SubjectCard({
             {hasPrerequisites && (
               <span
                 onClick={(e) => {
-                  e.stopPropagation(); // Evita que se dispare el onClick de la tarjeta
+                  e.stopPropagation();
                   setIsExpanded(!isExpanded);
                 }}
                 className="flex items-center justify-center w-4 h-4 text-[10px] font-bold text-slate-600 bg-slate-200 hover:bg-slate-300 rounded-full cursor-pointer transition-colors"
@@ -93,7 +93,7 @@ export function SubjectCard({
           )}
           {subject.isElective && (
             <span className="text-[10px] bg-blue-50 text-blue-600 px-1.5 rounded">
-              Elective
+              Electiva
             </span>
           )}
         </div>
@@ -104,7 +104,7 @@ export function SubjectCard({
 
         {shouldShowPrereqs && (
           <div className="mt-3 pt-2 border-t border-current border-opacity-10 text-[10px]">
-            <p className="font-semibold opacity-70 mb-1">Prerequisites:</p>
+            <p className="font-semibold opacity-70 mb-1">Prerequisitos:</p>
             <ul className="space-y-1">
               {correlatives.map((rule) => {
                 const myStatus = progressMap.get(rule.requiredSubject.id);

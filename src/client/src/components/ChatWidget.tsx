@@ -6,21 +6,23 @@ type Message = {
   role: 'user' | 'assistant';
   content: string;
 };
-
 const renderFormattedText = (text: string) => {
   const lines = text.split('\n');
 
   return lines.map((line, lineIndex) => {
     let isBullet = false;
-    let content = line;
+    let isHeading = false;
+    let content = line.trim();
 
-    // Detect bullet points starting with "- " or "* "
-    if (line.trim().startsWith('- ') || line.trim().startsWith('* ')) {
+    if (content.startsWith('#')) {
+      isHeading = true;
+      content = content.replace(/^#+\s*/, '');
+    }
+    else if (content.startsWith('- ') || content.startsWith('* ')) {
       isBullet = true;
-      content = line.trim().substring(2);
+      content = content.substring(2);
     }
 
-    // Split text by **...** to isolate bold portions
     const parts = content.split(/(\*\*.*?\*\*)/g);
     const parsedParts = parts.map((part, i) => {
       if (part.startsWith('**') && part.endsWith('**')) {
@@ -32,6 +34,14 @@ const renderFormattedText = (text: string) => {
       }
       return part;
     });
+
+    if (isHeading) {
+      return (
+        <h3 key={lineIndex} className="font-bold text-slate-900 text-sm mt-3 mb-1 border-b border-slate-200 pb-1">
+          {parsedParts}
+        </h3>
+      );
+    }
 
     if (isBullet) {
       return (
@@ -65,8 +75,10 @@ export function ChatWidget() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
-  }, [messages, isLoading]);
+    if (isOpen) {
+      messagesEndRef.current?.scrollIntoView({ behavior: 'auto' });
+    }
+  }, [messages, isLoading, isOpen]);
 
   const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -102,7 +114,7 @@ export function ChatWidget() {
           role="dialog"
           aria-modal="true"
           aria-labelledby="chat-title"
-          className="w-85 h-112.5 bg-white border border-slate-200 rounded-xl shadow-2xl flex flex-col overflow-hidden"
+          className="w-100 h-162.5 bg-white border border-slate-200 rounded-xl shadow-2xl flex flex-col overflow-hidden"
         >
           <div className="bg-blue-600 text-white p-3.5 flex justify-between items-center shadow-sm">
             <h2 id="chat-title" className="font-semibold text-sm tracking-wide">
@@ -167,7 +179,6 @@ export function ChatWidget() {
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Ej: ¿Qué necesito para Sistemas?"
               className="flex-1 border-2 border-blue-500 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-0 transition-all text-slate-700 placeholder-slate-400"
-              disabled={isLoading}
             />
             <button
               type="submit"

@@ -92,11 +92,12 @@ export default function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-slate-50 font-sans text-slate-900">
+      <div className="min-h-screen bg-slate-50 font-sans text-slate-900 z-50">
         <header className="bg-white shadow-sm sticky top-0 z-50 border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-slate-800">
-              🎓 UTN Asistente
+            <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
+              <img src="/logo.png" alt="Logo" className="w-10 h-10 mr-2" />
+              Asistente IA UTN
             </h1>
             <div className="flex items-center gap-2">
               <label className="flex items-center gap-2 text-sm text-slate-600 cursor-pointer bg-slate-100 px-3 py-1.5 rounded-md hover:bg-slate-200">
