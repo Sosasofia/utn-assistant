@@ -1,34 +1,26 @@
 ﻿using System;
+using Microsoft.Data.SqlTypes;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Pgvector;
-using UtnAssistant.API.Enums;
 
 #nullable disable
 
 namespace UtnAssistant.API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class InitialSqlServerMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AlterDatabase()
-                .Annotation("Npgsql:Enum:CorrelativeType", "approved,attended")
-                .Annotation("Npgsql:Enum:CorrelativeType.correlative_type", "approved,attended")
-                .Annotation("Npgsql:Enum:ProgressStatus", "approved,attended,enrolled,not_enrolled")
-                .Annotation("Npgsql:Enum:ProgressStatus.progress_status", "not_enrolled,enrolled,attended,approved")
-                .Annotation("Npgsql:PostgresExtension:vector", ",,");
-
             migrationBuilder.CreateTable(
                 name: "Career",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    name = table.Column<string>(type: "text", nullable: false),
-                    code = table.Column<string>(type: "text", nullable: false),
-                    createdAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    updatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    code = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    createdAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    updatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -39,11 +31,11 @@ namespace UtnAssistant.API.Migrations
                 name: "User",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    email = table.Column<string>(type: "text", nullable: false),
-                    name = table.Column<string>(type: "text", nullable: true),
-                    createdAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    updatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    email = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    createdAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    updatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -54,17 +46,17 @@ namespace UtnAssistant.API.Migrations
                 name: "Subject",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    code = table.Column<string>(type: "text", nullable: false),
-                    name = table.Column<string>(type: "text", nullable: false),
-                    year = table.Column<int>(type: "integer", nullable: false),
-                    semester = table.Column<int>(type: "integer", nullable: false),
-                    credits = table.Column<int>(type: "integer", nullable: true),
-                    isIntegrator = table.Column<bool>(type: "boolean", nullable: false),
-                    isElective = table.Column<bool>(type: "boolean", nullable: false),
-                    careerId = table.Column<string>(type: "text", nullable: false),
-                    createdAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    updatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    code = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    year = table.Column<int>(type: "int", nullable: false),
+                    semester = table.Column<int>(type: "int", nullable: false),
+                    credits = table.Column<int>(type: "int", nullable: true),
+                    isIntegrator = table.Column<bool>(type: "bit", nullable: false),
+                    isElective = table.Column<bool>(type: "bit", nullable: false),
+                    careerId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    createdAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    updatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -81,11 +73,11 @@ namespace UtnAssistant.API.Migrations
                 name: "Correlative",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    subjectId = table.Column<string>(type: "text", nullable: false),
-                    requiredSubjectId = table.Column<string>(type: "text", nullable: false),
-                    type = table.Column<CorrelativeType>(type: "\"CorrelativeType\"", nullable: false),
-                    isTransient = table.Column<bool>(type: "boolean", nullable: false)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    subjectId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    requiredSubjectId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    type = table.Column<int>(type: "int", nullable: false),
+                    isTransient = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -95,23 +87,23 @@ namespace UtnAssistant.API.Migrations
                         column: x => x.requiredSubjectId,
                         principalTable: "Subject",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Correlative_Subject_subjectId",
                         column: x => x.subjectId,
                         principalTable: "Subject",
                         principalColumn: "id",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
                 name: "SyllabusChunk",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    subjectId = table.Column<string>(type: "text", nullable: false),
-                    content = table.Column<string>(type: "text", nullable: false),
-                    embedding = table.Column<Vector>(type: "vector(1536)", nullable: true)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    subjectId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    content = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    embedding = table.Column<SqlVector<float>>(type: "vector(1536)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -128,12 +120,12 @@ namespace UtnAssistant.API.Migrations
                 name: "UserSubjectProgress",
                 columns: table => new
                 {
-                    id = table.Column<string>(type: "text", nullable: false),
-                    userId = table.Column<string>(type: "text", nullable: false),
-                    subjectId = table.Column<string>(type: "text", nullable: false),
-                    status = table.Column<ProgressStatus>(type: "\"ProgressStatus\"", nullable: false),
-                    grade = table.Column<double>(type: "double precision", nullable: true),
-                    updatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    userId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    subjectId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    status = table.Column<int>(type: "int", nullable: false),
+                    grade = table.Column<double>(type: "float", nullable: true),
+                    updatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {

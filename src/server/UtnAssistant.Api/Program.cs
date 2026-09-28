@@ -3,7 +3,6 @@ using System.Text.Json.Serialization;
 using UtnAssistant.API.Data;
 using UtnAssistant.API.Data.Seed;
 using UtnAssistant.API.Endpoints;
-using UtnAssistant.API.Enums;
 using UtnAssistant.API.Models;
 using UtnAssistant.API.Services;
 
@@ -31,14 +30,16 @@ builder.Services.ConfigureHttpJsonOptions(options =>
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(connectionString, npgsqlOptions =>
+{
+    options.UseSqlServer(connectionString, sqlOptions =>
     {
-        npgsqlOptions.UseVector();
-        npgsqlOptions.MapEnum<CorrelativeType>("CorrelativeType");
-        npgsqlOptions.MapEnum<ProgressStatus>("ProgressStatus");
-    })
-);
-
+        sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 5,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null
+        );
+    });
+});
 
 builder.Services.AddScoped<AcademicChatService>();
 builder.Services.AddScoped<SyllabusIngestor>();

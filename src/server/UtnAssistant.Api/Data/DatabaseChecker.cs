@@ -26,9 +26,7 @@ public static class DatabaseChecker
                 ? cleanContent.Substring(0, 50)
                 : cleanContent;
 
-            var vectorPreview = chunk.Embedding != null
-                ? $"[{string.Join(", ", chunk.Embedding.ToArray().Take(3))}...]"
-                : "[null]";
+            var vectorPreview = $"[{string.Join(", ", chunk.Embedding.ToString().Take(3))}...]";
 
             Console.WriteLine($"{chunk.SubjectId,-36} | {contentPreview,-50} | {vectorPreview}");
         }

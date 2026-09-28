@@ -4,18 +4,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UtnAssistant.API.Models;
 
-[Table("SyllabusChunk")]
-public class SyllabusChunk
+[Table("CareerChunk")]
+public class CareerChunk
 {
     [Key]
     [Column("id")]
     public string Id { get; set; } = string.Empty;
 
-    [Column("subjectId")]
-    public string SubjectId { get; set; } = string.Empty;
+    [Column("careerId")]
+    public string CareerId { get; set; } = string.Empty;
 
-    [ForeignKey("SubjectId")]
-    public Subject Subject { get; set; } = null!;
+    [ForeignKey("CareerId")]
+    public Career Career { get; set; } = null!;
+
+    [Column("sectionTitle")]
+    public string SectionTitle { get; set; } = string.Empty;
 
     [Column("content")]
     public string Content { get; set; } = string.Empty;

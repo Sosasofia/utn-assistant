@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.Data.SqlTypes;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.AI;
 using OpenAI;
 using OpenAI.Chat;
-using Pgvector;
-using Pgvector.EntityFrameworkCore;
 using System.ClientModel;
+using System.Text;
 using UtnAssistant.API.Domain;
+using UtnAssistant.API.Endpoints;
 using UtnAssistant.API.Enums;
 using UtnAssistant.API.Models;
-using UtnAssistant.API.Endpoints;
+using OpenAIChat = OpenAI.Chat;
 
 namespace UtnAssistant.API.Services;
 
@@ -18,6 +20,8 @@ public class AcademicChatService
     private readonly string _chatModel;
     private readonly string _embeddingModel;
     private readonly string _endpoint;
+
+    private readonly IEmbeddingGenerator<string, Embedding<float>> _embeddingGenerator;
 
     public AcademicChatService(AppDbContext context, IConfiguration config)
     {
@@ -45,16 +49,19 @@ public class AcademicChatService
     {
         var embeddingClient = _client.GetEmbeddingClient(_embeddingModel);
         var embedResponse = await embeddingClient.GenerateEmbeddingAsync(userMessage);
-        var queryVector = new Vector(embedResponse.Value.ToFloats().ToArray());
+        var queryVector = new SqlVector<float>(embedResponse.Value.ToFloats().ToArray());
 
         var matches = await _context.SyllabusChunks
-            .AsNoTracking()
-            .Where(c => c.Embedding != null)
-            .OrderBy(c => c.Embedding!.CosineDistance(queryVector))
+            .OrderBy(b => EF.Functions.VectorDistance("cosine", b.Embedding!, queryVector))
             .Take(3)
             .Include(c => c.Subject)
                 .ThenInclude(s => s.CorrelativesAsTarget)
                     .ThenInclude(corr => corr.RequiredSubject)
+            .ToListAsync();
+
+        var careerMatches = await _context.CareerChunks
+            .OrderBy(c => EF.Functions.VectorDistance("cosine", c.Embedding!, queryVector))
+            .Take(2) 
             .ToListAsync();
 
         var userProgress = await _context.UserSubjectProgresses
@@ -104,10 +111,22 @@ public class AcademicChatService
         var eligibleContext = eligibleSubjects.Any() ? string.Join("\n", eligibleSubjects) : "None.";
         var blockedContext = blockedSubjects.Any() ? string.Join("\n", blockedSubjects) : "None.";
 
-        var syllabusContext = "No specific syllabus details retrieved for this query.";
+        var contextBuilder = new StringBuilder();
+
+        if (careerMatches.Count > 0)
+        {
+            contextBuilder.AppendLine("--- INFORMACIÓN DE LA CARRERA ---");
+            foreach (var match in careerMatches)
+            {
+                contextBuilder.AppendLine(match.Content);
+                contextBuilder.AppendLine();
+            }
+        }
+
         if (matches.Count > 0)
         {
-            var contextBlocks = matches.Select(match =>
+            contextBuilder.AppendLine("--- INFORMACIÓN DE MATERIAS ---");
+            foreach (var match in matches)
             {
                 var dbSubject = match.Subject;
                 var reqText = "Correlativas requeridas: Ninguna.";
@@ -116,48 +135,41 @@ public class AcademicChatService
                     var reqNames = string.Join(", ", dbSubject.CorrelativesAsTarget.Select(c => c.RequiredSubject.Name));
                     reqText = $"Correlativas requeridas para cursar: {reqNames}.";
                 }
-                return $"--- Materia: {dbSubject.Name} ---\n{reqText}\n\nContenido PDF:\n{match.Content}";
-            });
-            syllabusContext = string.Join("\n\n", contextBlocks);
+                contextBuilder.AppendLine($"--- Materia: {dbSubject.Name} ---\n{reqText}\n\nContenido PDF:\n{match.Content}");
+                contextBuilder.AppendLine();
+            }
         }
-
+        var syllabusContext = contextBuilder.Length > 0 ? contextBuilder.ToString() : "No specific syllabus or career details retrieved for this query.";
         var prompt = $"""
-                You are an academic assistant for the UTN Information Systems Engineering program. 
+                You are the official academic advisor for the UTN Information Systems Engineering program. 
+                Your role is to guide the student with absolute confidence based strictly on their academic record and institutional rules.
 
-                Your primary role is to advise the student based strictly on the provided institutional rules and their personal academic record.
-                If the answer is not contained in the context, say you do not know. 
-                Respond in Spanish if the user's question is in Spanish or if the user's question is in another language, respond in english.
+                ### STUDENT ACADEMIC DATA
+                - ELIGIBLE TO COURSE NEXT: {eligibleContext}
+                - BLOCKED SUBJECTS & MISSING REQUIREMENTS: {blockedContext}
+                - STUDENT'S CURRENT PROGRESS: {historyContext}
 
-                ### ELIGIBLE TO COURSE NEXT (Pre-verified by the system)
-                {eligibleContext}
+                ### INSTITUTIONAL KNOWLEDGE
+                - FULL CURRICULUM DEPENDENCY MAP: {fullPrerequisiteMap}
+                - OFFICIAL SYLLABUS & RULES: {syllabusContext}
 
-                ### BLOCKED SUBJECTS & MISSING REQUIREMENTS
-                {blockedContext}
+                ### CORE DIRECTIVES
+                - LANGUAGE: Respond in the language of the user's prompt (default to Spanish for local UTN terminology). 
+                - TERMINOLOGY: Translate internal system tags naturally. "ATTENDED" means "Cursada" or "Firmada". "APPROVED" means "Aprobada". NEVER output the English tags to the user.
+                - SCOPE: Refuse to answer any questions unrelated to UTN academics or the student's curriculum.
+                - THE ABSOLUTE TRUTH: The ELIGIBLE and BLOCKED lists are pre-verified. Rely on them entirely for immediate enrollment answers.
+                - EXAM LOGIC: If a required subject is listed as "ATTENDED", the student's immediate next step is to pass the final exam ("rendir y aprobar el final") to unlock its dependents. 
+                - FUTURE PLANNING: Use the DEPENDENCY MAP to trace prerequisites backward for long-term planning.
 
-                ### FULL CURRICULUM DEPENDENCY MAP
-                {fullPrerequisiteMap}
-
-                ### OFFICIAL SYLLABUS & RULES (RAG CONTEXT)
-                {syllabusContext}
-
-                ### STUDENT'S CURRENT ACADEMIC PROGRESS
-                {historyContext}
-
-                INSTRUCTIONS:
-                - If the user asks about anything unrelated to UTN academics, refuse to answer.
-                - TRANSLATION RULE: The system uses English tags internally. You MUST translate them in your response. "ATTENDED" means "cursada" or "firmada". "APPROVED" means "aprobada". NEVER output the exact words "ATTENDED" or "APPROVED" to the user.
-                - The ELIGIBLE and BLOCKED lists are the ABSOLUTE TRUTH for immediate enrollment.
-                - CONCISENESS RULE: DO NOT list or repeat the student's current academic history. ONLY state the missing requirements, the exact subjects they need to take, or the immediate next steps.
-                - If the student asks about a subject in the BLOCKED list, you MUST explicitly state: "No podés cursar [Materia] todavía." Then explain the missing prerequisites.
-                - FUTURE PLANNING: Use the FULL CURRICULUM DEPENDENCY MAP to trace prerequisites backward. 
-                - EXAM LOGIC: If a prerequisite subject is currently listed as 'ATTENDED' in their progress, tell the student their immediate next step is to pass the final exam (rendir y aprobar el final) for that subject.
-                - EXAM LOGIC: If a missing prerequisite subject is currently listed as 'ATTENDED' in their progress, tell the student their immediate next step is to pass the final exam ("rendir y aprobar el final") for that subject.
-                - ABSOLUTELY NEVER use phrases like 'based on the context provided', 'with the information I have', 'in what you passed me', or mention your knowledge base. Act with 100% confidence as the university system.
-                - If the answer is truly unknowable, state the immediate requirements clearly without apologizing or explaining your internal mechanics.
+                ### STYLE & TONE (CRITICAL)
+                - CONCISENESS: DO NOT list or repeat the student's entire academic history. Go straight to the point: state exactly what they need to do next or why they are blocked.
+                - BLOCKED SUBJECTS: If asked about a blocked subject, start directly with: "No podés cursar [Materia] todavía." Then list the exact missing prerequisites.
+                - NO META-TALK: NEVER use phrases like "based on the context provided", "according to the system", or "with the information I have". Speak as the definitive university system.
+                - IF UNKNOWN: If the answer cannot be determined from the rules, state the requirements clearly without apologizing or explaining your internal mechanics.
                 - Be concise, direct, and encouraging.
                 """;
 
-        var messages = new List<ChatMessage> { new SystemChatMessage(prompt) };
+        var messages = new List<OpenAIChat.ChatMessage> { new SystemChatMessage(prompt) };
 
         if (history != null && history.Any())
         {
